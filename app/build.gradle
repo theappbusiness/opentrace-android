@@ -6,8 +6,8 @@ apply plugin: 'com.google.gms.google-services'
 apply plugin: 'io.fabric'
 apply plugin: 'com.google.firebase.appdistribution'
 apply plugin: "com.cookpad.android.plugin.license-tools"
-
 apply plugin: 'com.jaredsburrows.license'
+
 buildscript {
     repositories {
         google()
@@ -86,7 +86,7 @@ android {
             String ssid = STAGING_SERVICE_UUID
             versionNameSuffix "-debug-${getGitHash()}-${ssid.substring(ssid.length() - 5, ssid.length() - 1)}"
             resValue "string", "app_name", "OpenTrace Debug"
-            applicationIdSuffix "stg"
+//            applicationIdSuffix "stg"
         }
 
         release {
@@ -188,5 +188,4 @@ dependencies {
 
     //Lottie
     implementation 'com.airbnb.android:lottie:3.4.0'
-
 }
