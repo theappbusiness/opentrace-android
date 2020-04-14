@@ -7,6 +7,13 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
+.idea/misc.xml
+.idea/markdown-navigator.xml
+.idea/markdown-navigator-enh.xml
+.idea/jarRepositories.xml
+.idea/gradle.xml
+.idea/compiler.xml
+
 .DS_Store
 /build
 /captures
@@ -17,3 +24,4 @@ app/release
 **/Constants.*
 
 gradle.properties
+fastlane/report.xml

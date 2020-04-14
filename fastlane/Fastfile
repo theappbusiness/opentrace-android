@@ -1,0 +1,14 @@
+fastlane_version "2.144.0"
+
+default_platform(:android)
+
+platform :android do
+  desc "Android Dev Channel (AppCenter)"
+  lane :deploy do |options|
+    gradle(task: "app:assembleDebug -PdisablePreDex")
+    appcenter_upload(
+      file: lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH],
+      notify_testers: true,
+    )
+  end
+end
