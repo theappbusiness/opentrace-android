@@ -46,7 +46,7 @@ class SetupCompleteFragment : OnboardingFragmentInterface() {
         return inflater.inflate(R.layout.fragment_setup_complete, container, false)
     }
 
-    override fun getProgressValue(): Int = 100
+    override fun getProgressValue(): Int = 75
 
     override fun onUpdatePhoneNumber(num: String) {}
 
