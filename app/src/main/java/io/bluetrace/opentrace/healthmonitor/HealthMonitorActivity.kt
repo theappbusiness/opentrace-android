@@ -7,6 +7,7 @@ import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import io.bluetrace.opentrace.R
 import io.bluetrace.opentrace.extensions.observe
 import io.bluetrace.opentrace.healthmonitor.model.Question
@@ -26,13 +27,11 @@ class HealthMonitorActivity : AppCompatActivity() {
 
         observe(viewModel.finished, ::finished)
 
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.container, HowDoYouFeelFragment.newInstance())
-            .commit()
+        replaceFragment(HowDoYouFeelFragment.newInstance())
     }
 
     fun onFeelingGoodClicked() {
-        Toast.makeText(this, "Great! :)", Toast.LENGTH_LONG).show()
+        replaceFragment(OkGreatFragment.newInstance())
     }
 
     fun onNotFeelingGoodClicked() {
@@ -61,6 +60,12 @@ class HealthMonitorActivity : AppCompatActivity() {
     private fun showCurrentQuestion(question: Question) {
         supportFragmentManager.beginTransaction()
             .replace(R.id.container, QuestionFragment.newInstance(question))
+            .commit()
+    }
+
+    private fun replaceFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.container, fragment)
             .commit()
     }
 }
