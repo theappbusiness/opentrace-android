@@ -35,7 +35,7 @@ class HealthMonitorActivity : AppCompatActivity() {
 
     fun onNotFeelingGoodClicked() {
 //        observe(viewModel.currentQuestion, ::showCurrentQuestion)
-        replaceFragment(SymptomFormFragment)
+        replaceFragment(ContactFormFragment.newInstance())
     }
 
     private fun finished(finished: Boolean) {
