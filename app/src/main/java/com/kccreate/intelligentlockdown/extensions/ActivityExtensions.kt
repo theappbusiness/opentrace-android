@@ -1,4 +1,4 @@
-package io.bluetrace.opentrace.extensions
+package com.kccreate.intelligentlockdown.extensions
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.LiveData

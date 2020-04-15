@@ -1,11 +1,11 @@
-package io.bluetrace.opentrace.healthmonitor
+package com.kccreate.intelligentlockdown.healthmonitor
 
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.widget.AppCompatButton
 import androidx.fragment.app.Fragment
-import io.bluetrace.opentrace.R
-import io.bluetrace.opentrace.extensions.bindView
+import com.kccreate.intelligentlockdown.R
+import com.kccreate.intelligentlockdown.extensions.bindView
 
 class HowDoYouFeelFragment : Fragment(R.layout.fragment_how_do_you_feel) {
 

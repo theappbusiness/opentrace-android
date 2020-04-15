@@ -1,4 +1,4 @@
-package io.bluetrace.opentrace.healthmonitor
+package com.kccreate.intelligentlockdown.healthmonitor
 
 import android.os.Bundle
 import android.view.View
@@ -7,11 +7,11 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
-import io.bluetrace.opentrace.R
-import io.bluetrace.opentrace.extensions.bindArgument
-import io.bluetrace.opentrace.extensions.bindView
-import io.bluetrace.opentrace.extensions.withArguments
-import io.bluetrace.opentrace.healthmonitor.model.Question
+import com.kccreate.intelligentlockdown.R
+import com.kccreate.intelligentlockdown.extensions.bindArgument
+import com.kccreate.intelligentlockdown.extensions.bindView
+import com.kccreate.intelligentlockdown.extensions.withArguments
+import com.kccreate.intelligentlockdown.healthmonitor.model.Question
 
 class QuestionFragment : Fragment(R.layout.fragment_question) {
 

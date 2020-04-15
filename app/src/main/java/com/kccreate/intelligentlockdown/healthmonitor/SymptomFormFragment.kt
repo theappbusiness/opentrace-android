@@ -1,10 +1,10 @@
-package io.bluetrace.opentrace.healthmonitor
+package com.kccreate.intelligentlockdown.healthmonitor
 
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import io.bluetrace.opentrace.R
+import com.kccreate.intelligentlockdown.R
 
 class SymptomFormFragment : Fragment(R.layout.fragment_symptom_form) {
 

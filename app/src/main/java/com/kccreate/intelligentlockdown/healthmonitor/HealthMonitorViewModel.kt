@@ -1,12 +1,12 @@
-package io.bluetrace.opentrace.healthmonitor
+package com.kccreate.intelligentlockdown.healthmonitor
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import io.bluetrace.opentrace.R
-import io.bluetrace.opentrace.healthmonitor.model.TrackerQuestions
+import com.kccreate.intelligentlockdown.R
+import com.kccreate.intelligentlockdown.healthmonitor.model.TrackerQuestions
 import java.io.BufferedReader
 
 class HealthMonitorViewModel(private val app: Application) : AndroidViewModel(app) {

@@ -7,8 +7,8 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.kccreate.intelligentlockdown.R
-import io.bluetrace.opentrace.extensions.bindView
-import io.bluetrace.opentrace.healthmonitor.HealthMonitorViewModel
+import com.kccreate.intelligentlockdown.extensions.bindView
+import com.kccreate.intelligentlockdown.healthmonitor.HealthMonitorViewModel
 
 class ContactFormFragment : Fragment(R.layout.fragment_contact_form) {
 

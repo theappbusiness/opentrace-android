@@ -8,12 +8,12 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.kccreate.intelligentlockdown.R
-import io.bluetrace.opentrace.extensions.observe
-import io.bluetrace.opentrace.healthmonitor.HealthMonitorViewModel
-import io.bluetrace.opentrace.healthmonitor.HowDoYouFeelFragment
-import io.bluetrace.opentrace.healthmonitor.OkGreatFragment
-import io.bluetrace.opentrace.healthmonitor.QuestionFragment
-import io.bluetrace.opentrace.healthmonitor.model.Question
+import com.kccreate.intelligentlockdown.extensions.observe
+import com.kccreate.intelligentlockdown.healthmonitor.HealthMonitorViewModel
+import com.kccreate.intelligentlockdown.healthmonitor.HowDoYouFeelFragment
+import com.kccreate.intelligentlockdown.healthmonitor.OkGreatFragment
+import com.kccreate.intelligentlockdown.healthmonitor.QuestionFragment
+import com.kccreate.intelligentlockdown.healthmonitor.model.Question
 
 class HealthMonitorActivity : AppCompatActivity() {
 

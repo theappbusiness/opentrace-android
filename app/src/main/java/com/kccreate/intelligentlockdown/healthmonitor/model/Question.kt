@@ -1,4 +1,4 @@
-package io.bluetrace.opentrace.healthmonitor.model
+package com.kccreate.intelligentlockdown.healthmonitor.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
