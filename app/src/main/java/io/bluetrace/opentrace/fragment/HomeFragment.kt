@@ -30,6 +30,7 @@ import kotlinx.android.synthetic.main.fragment_home.*
 import pub.devrel.easypermissions.AfterPermissionGranted
 import pub.devrel.easypermissions.EasyPermissions
 import io.bluetrace.opentrace.*
+import io.bluetrace.opentrace.healthmonitor.HealthMonitorActivity
 import io.bluetrace.opentrace.logging.CentralLog
 import io.bluetrace.opentrace.onboarding.OnboardingActivity
 import io.bluetrace.opentrace.status.persistence.StatusRecord
@@ -96,6 +97,11 @@ class HomeFragment : Fragment() {
 
         btn_announcement_close.setOnClickListener {
             clearAndHideAnnouncement()
+        }
+
+        start_tracking.setOnClickListener {
+            val intent = HealthMonitorActivity.newIntent(requireContext())
+            startActivity(intent)
         }
 
         remoteConfig = Firebase.remoteConfig
