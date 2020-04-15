@@ -95,4 +95,5 @@
     <string name="btn_im_feeling_good">I\'m feeling good</string>
     <string name="btn_not_feeling_good">I\'m not feeling quite right</string>
     <string name="txt_ok_great">Ok, great!</string>
+    <string name="txt_find_out_more_about_your_condition">Let’s find out more about your condition</string>
 </resources>

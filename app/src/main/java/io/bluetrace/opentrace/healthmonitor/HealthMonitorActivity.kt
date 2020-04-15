@@ -3,7 +3,6 @@ package io.bluetrace.opentrace.healthmonitor
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -35,7 +34,8 @@ class HealthMonitorActivity : AppCompatActivity() {
     }
 
     fun onNotFeelingGoodClicked() {
-        observe(viewModel.currentQuestion, ::showCurrentQuestion)
+//        observe(viewModel.currentQuestion, ::showCurrentQuestion)
+        replaceFragment(SymptomFormFragment)
     }
 
     private fun finished(finished: Boolean) {
