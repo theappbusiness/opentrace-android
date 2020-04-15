@@ -45,7 +45,7 @@ class TOUFragment : OnboardingFragmentInterface() {
         onboardActivity.navigateToNextPage()
     }
 
-    override fun getProgressValue(): Int = 25
+    override fun getProgressValue(): Int = 50
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

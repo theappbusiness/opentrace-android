@@ -37,7 +37,7 @@ class SetupFragment : OnboardingFragmentInterface() {
 
     override fun becomesVisible() {}
 
-    override fun getProgressValue(): Int = 50
+    override fun getProgressValue(): Int = 75
 
     override fun onUpdatePhoneNumber(num: String) {}
 
