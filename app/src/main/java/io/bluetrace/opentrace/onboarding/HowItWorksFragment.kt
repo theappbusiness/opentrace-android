@@ -27,6 +27,7 @@ class HowItWorksFragment : OnboardingFragmentInterface() {
                 if (task.isSuccessful) {
                     CentralLog.i(TAG, "Sign in success")
                 } else {
+                    //TODO Error handling needed
                     CentralLog.d(TAG, "Sign in failure")
                 }
                 navigateToNextPage()

@@ -25,3 +25,5 @@ app/release
 
 gradle.properties
 fastlane/report.xml
+
+google-services.json
