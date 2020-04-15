@@ -108,7 +108,8 @@
             android:theme="@style/AppTheme.DebugNoActionBar" />
         <activity
             android:name=".healthmonitor.HealthMonitorActivity"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"/>
 
         <receiver android:name=".receivers.UpgradeReceiver">
             <intent-filter>
