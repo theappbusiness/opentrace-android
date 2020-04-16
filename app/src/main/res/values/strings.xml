@@ -127,7 +127,7 @@
     <string name="txt_no">No</string>
     <string name="txt_all_fields_mandatory">All fields are mandatory</string>
     <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice to keep you safe and sound</string>
-    <string name="txt_thanks_for_your_info">Thanks for your info</string>
+    <string name="txt_thanks_for_your_info">Thanks for sharing</string>
     <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Take a minute each day and track how you\'re feeling.</string>
     <string name="txt_stay_at_home_as_much_as_possible">Stay at home as much as possible and only go outside if it is really necessary to avoid further spread of the virus. For more information please visit: https://www.rivm.nl/en</string>
     <string name="btn_done">Done</string>
@@ -149,4 +149,5 @@
     <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If no one had any symptoms for more than 24 hours, you can go back outside.</string>
     <string name="txt_please_fill_in_your_details">Please fill in your details. We would like to talk to you to get a better understanding of your symptomps and see how we can help.</string>
     <string name="txt_thanks_for_sharing_your_details_with_us">Thanks for sharing your details with us. We\'ll get back to you ASAP.</string>
+    <string name="txt_if_you_need_medical_help_please_call_your_gp">We\'ll get in touch with you ASAP. If in the meantime you need medical help, please call your GP.</string>
 </resources>
