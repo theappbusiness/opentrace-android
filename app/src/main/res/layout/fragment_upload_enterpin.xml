@@ -1,130 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_white_radius"
-    android:orientation="vertical"
-    android:weightSum="6">
+    android:background="@color/white"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="5"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:ignore="Suspicious0dp">
+        android:padding="22dp"
+        app:layout_constraintBottom_toTopOf="@+id/enter_pin_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/enter_pin_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="6sp"
+            android:text="@string/enter_pin_title"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/enter_pin_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="6sp"
+            android:text="@string/enter_pin_subtitle"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="20dp">
-
-            <LinearLayout
-                android:id="@+id/enterPinFragmentBackButtonLayout"
-                android:layout_width="60dp"
-                android:layout_height="wrap_content">
-
-                <ImageButton
-                    android:id="@+id/enterPinFragmentBackButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@color/transparent"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/back" />
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_weight="3"
-            android:orientation="vertical">
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textSize="15sp"
-                android:text="STEP 2" />
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:text="Enter PIN to upload"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
 
             <EditText
-                android:id="@+id/enterPinFragmentUploadCode"
-                android:layout_width="match_parent"
+                android:id="@+id/enter_pin_first"
+                android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:imeOptions="actionGo"
-                android:maxLength="6"
-                android:textSize="18sp" />
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:inputType="number|textNoSuggestions"
+                android:maxLength="1"
+                android:nextFocusRight="@id/enter_pin_second"
+                android:textColor="@color/black"
+                android:textSize="45sp"
+                android:textStyle="normal"
+                tools:text="5" />
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/enterPinFragmentErrorMessage"
-                android:layout_width="match_parent"
+            <EditText
+                android:id="@+id/enter_pin_second"
+                android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:text="Invalid PIN"
-                android:textColor="#C20000"
-                android:textSize="16sp"
-                android:visibility="invisible" />
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:inputType="number|textNoSuggestions"
+                android:maxLength="1"
+                android:nextFocusRight="@id/enter_pin_second"
+                android:textColor="@color/black"
+                android:textSize="45sp"
+                android:textStyle="normal"
+                tools:text="5" />
+
+            <EditText
+                android:id="@+id/enter_pin_third"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:inputType="number|textNoSuggestions"
+                android:maxLength="1"
+                android:nextFocusRight="@id/enter_pin_second"
+                android:textColor="@color/black"
+                android:textSize="45sp"
+                android:textStyle="normal"
+                tools:text="6" />
+
+            <EditText
+                android:id="@+id/enter_pin_fourth"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:inputType="number|textNoSuggestions"
+                android:maxLength="1"
+                android:nextFocusRight="@id/enter_pin_second"
+                android:textColor="@color/black"
+                android:textSize="45sp"
+                android:textStyle="normal"
+                tools:text="7" />
+
+            <EditText
+                android:id="@+id/enter_pin_fifth"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:inputType="number|textNoSuggestions"
+                android:maxLength="1"
+                android:nextFocusRight="@id/enter_pin_second"
+                android:textColor="@color/black"
+                android:textSize="45sp"
+                android:textStyle="normal"
+                tools:text="3" />
+
+            <EditText
+                android:id="@+id/enter_pin_sixth"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:inputType="number|textNoSuggestions"
+                android:maxLength="1"
+                android:nextFocusRight="@id/enter_pin_second"
+                android:textColor="@color/black"
+                android:textSize="45sp"
+                android:textStyle="normal"
+                tools:text="9" />
+
         </LinearLayout>
 
-        <LinearLayout
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/enter_pin_error_message"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_weight="2"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/enter_pin_error_message"
+            android:textColor="#C20000"
+            android:textSize="16sp"
+            android:visibility="invisible"
+            tools:visibility="visible" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:textSize="13sp"
-                    android:layout_marginTop="10dp"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/upload_agreement" />
-            </LinearLayout>
-
-        </LinearLayout>
+        <TextView
+            android:id="@+id/enter_pin_uploading_tandcs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif"
+            android:lineSpacingExtra="6sp"
+            android:text="@string/enter_pin_uploading_tandcs"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/enter_pin_button"
+        style="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="19dp"
+        android:enabled="false"
+        android:text="@string/enter_pin_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
+        android:id="@+id/enter_pin_loading_container"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:background="#4dccbd"
+        android:gravity="center" android:elevation="8dp"
         android:orientation="vertical"
-        tools:ignore="Suspicious0dp">
+        android:visibility="invisible">
 
-        <Button
-            android:id="@+id/enterPinActionButton"
-            android:fontFamily="@font/font"
-            android:textFontWeight="600"
-            android:textSize="18sp"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:background="@drawable/gradient"
-            android:text="Upload data"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textStyle="normal" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_wifi" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="6sp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/enter_pin_loading_message" />
+
+        <ProgressBar
+            android:id="@+id/loadingProgressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
     </LinearLayout>
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
