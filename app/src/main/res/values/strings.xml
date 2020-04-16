@@ -96,7 +96,7 @@
     <string name="btn_not_feeling_good">I\'m not feeling quite right</string>
     <string name="txt_ok_great">Okay, great!</string>
     <string name="txt_find_out_more_about_your_condition">Let\'s find out more how you\'re feeling</string>
-    <string name="txt_please_enter_your_details">Please enter your details</string>
+    <string name="txt_we_would_like_to_help">We would like to help you</string>
     <string name="btn_submit">Submit</string>
     <string name="hint_first_name">First Name</string>
     <string name="hint_last_name">Last Name</string>
@@ -147,4 +147,6 @@
     <string name="txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips">You\'re experiencing symptoms of the Virus. Here are some tips:</string>
     <string name="txt_if_you_have_housemates_they_can_also_not_go_outside">If you have housemates, they can also not go outside.</string>
     <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If no one had any symptoms for more than 24 hours, you can go back outside.</string>
+    <string name="txt_please_fill_in_your_details">Please fill in your details. We would like to talk to you to get a better understanding of your symptomps and see how we can help.</string>
+    <string name="txt_thanks_for_sharing_your_details_with_us">Thanks for sharing your details with us. We\'ll get back to you ASAP.</string>
 </resources>

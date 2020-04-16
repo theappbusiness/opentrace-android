@@ -32,4 +32,12 @@
     <string name="txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips">Je hebt klachten die bij het Coronavirus passen. We hebben een aantal tips voor je:</string>
     <string name="txt_if_you_have_housemates_they_can_also_not_go_outside">Heb je huisgenoten, dan mogen zij ook niet naar buiten. Als uitzondering hierop mogen alleen huisgenoten die geen klachten hebben even boodschappen doen.</string>
     <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">Als iedereen 24 uur geen klachten heeft, mag je weer naar buiten</string>
+    <string name="txt_thanks_for_sharing_your_details_with_us">"Bedankt voor het delen. We nemen zo snel mogelijk telefonisch contact op. "</string>
+    <string name="hint_postcode">Postcode</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_mobile_phone_number">"Telefoonnummer "</string>
+    <string name="hint_last_name">Achternaam</string>
+    <string name="hint_first_name">Voornaam</string>
+    <string name="txt_please_fill_in_your_details">"Vul je gegevens in. We willen graag contact met je opnemen om te horen hoe het met je gaat en om je verder te helpen. "</string>
+    <string name="txt_we_would_like_to_help">We willen je graag helpen</string>
 </resources>
