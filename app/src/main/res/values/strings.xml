@@ -47,7 +47,7 @@
     <string name="how_to_help">The Coronavirus COVID-19 Lockdown App</string>
     <string name="help_action">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
     <string name="check_data_tracking"><u>Check what we are tracking</u></string>
-   
+
     <string name="app_permission_status">App Permissions Status</string>
     <string name="bluetooth_on">Bluetooth: On</string>
     <string name="location_on">Location Permission: On</string>
@@ -104,7 +104,26 @@
     <string name="hint_mobile_phone_number">Mobile phone number</string>
     <string name="hint_email">Email</string>
     <string name="hint_postcode">Postcode</string>
+
+    <!--Splash-->
     <string name="splash_message">Coronavirus\nLockdown Advice</string>
+
+    <!--Upload-->
+    <string name="upload_title">If you have Coronavirus please let us know by uploading data</string>
+    <string name="upload_subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
+    <string name="upload_button">Next</string>
+    <!--Upload Enter pin-->
+    <string name="enter_pin_title">Please enter your pin</string>
+    <string name="enter_pin_subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
+    <string name="enter_pin_uploading_tandcs">By uploading, you agree too share with the Government of the Netherlands your bluetooth proximity data for the past 21 days. We don’t collect any geolocation or personal data.</string>
+    <string name="enter_pin_button">Upload data</string>
+    <string name="enter_pin_error_message">Invalid PIN</string>
+    <string name="enter_pin_loading_message">Uploading your data\nfor contact tracing\nplease wait…</string>
+    <!--Upload Success-->
+    <string name="upload_success_title">Thanks for your info</string>
+    <string name="upload_success_subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antiumed ut perspi.</string>
+    <string name="upload_success_button">OK</string>
+
     <string name="txt_yes">Yes</string>
     <string name="txt_no">No</string>
     <string name="txt_all_fields_mandatory">All fields are mandatory</string>

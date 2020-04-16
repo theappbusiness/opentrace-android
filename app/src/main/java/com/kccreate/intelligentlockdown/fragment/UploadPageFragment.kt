@@ -17,14 +17,7 @@ import com.kccreate.intelligentlockdown.streetpass.persistence.StreetPassRecord
 
 data class ExportData(val recordList: List<StreetPassRecord>, val statusList: List<StatusRecord>)
 
-class UploadPageFragment : Fragment() {
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_upload_page, container, false)
-    }
+class UploadPageFragment : Fragment(R.layout.fragment_upload_page) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
