@@ -1,133 +1,44 @@
 <resources>
-    <string name="see_connections">See connections</string>
-    <string name="stop">Stop</string>
-    <string name="permission_location_rationale">Please allow Location Permissions - Google requires this for your phone to scan for another phone’s Bluetooth. We do not use or store your location.</string>
-    <string name="permission_write_rationale">This app needs save files for logs (Debug builds only)</string>
-    <string name="ble_not_supported">This device does not support BLE</string>
+    <!--Splash-->
+    <string name="splash_message">COVID-19\nLock-down advice</string>
+    <!--Home-->
+    <string name="home_how_to_help">Welcome to the COVID-19 Lock-down advice app</string>
+    <string name="home_help_action">Together, we\'ll get Corona under control.</string>
+    <string name="home_check_data_tracking"><u>See what we are tracking</u></string>
+    <string name="home_share_message">Join me in stopping the spread of COVID-19! Download COVID-19 App. Go to: https://www.rivm.nl/en</string>
+    <string name="home_share_this_app">Share this app</string>
+    <string name="home_ask_friend">Ask your friends and family to help</string>
+    <string name="home_button_track_my_condition">Report my condition, even if you\'re well</string>
+    <!--Main-->
+    <string name="main_title_monitor">Monitor</string>
+    <string name="main_title_upload">Infected</string>
+    <string name="main_title_help">Help</string>
+    <!--Upload-->
+    <string name="upload_title">If you are invested with COVID-19, please let us know.</string>
+    <string name="upload_subtitle">By sharing your status we can inform the individuals you\'ve recently been in contact with. Please note that don\'t know who you are and will therefore never be able to share your identity.</string>
+    <string name="upload_button">Next</string>
+    <!--Upload Enter pin-->
+    <string name="enter_pin_title">Please enter your pin</string>
+    <string name="enter_pin_subtitle">By uploading you agree to share your bluetooth proximity of the last 21 days with Ministerie van Volksgezondheid, Welzijn en Sport. We do not collect any geolocation or personally identifiable information.</string>
+    <string name="enter_pin_button">Upload the data</string>
+    <string name="enter_pin_error_invalid_pin">Invalid PIN</string>
+    <string name="enter_pin_error_message">Something went wrong. Please try again.</string>
+    <string name="enter_pin_error_button">Try again</string>
+    <string name="enter_pin_loading_message">Uploading your data to start contact tracing</string>
+    <!--Upload Success-->
+    <string name="upload_success_title">Thank you for sharing</string>
+    <string name="upload_success_subtitle">We\'ll inform the individuals you\'ve recently been in contact with to avoid the Coronavirus from spreading.</string>
+    <string name="upload_success_button">OK</string>
 
-    <string name="tv_onboarding_title">Help stop the spread of COVID-19 by turning Bluetooth on</string>
-    <string name="tv_onboarding_desc">If you had close contact with a COVID-19 case, we help the health authorities call you more quickly, to provide guidance and care.</string>
-    <string name="tv_onboarding_desc_sub">To protect those around you, OTC may also ask you to share your data.</string>
-    <string name="i_want_to_help">I want to help</string>
-
-    <string name="tv_howitworks_title">How this app works</string>
-    <string name="tv_howitworks_explanation_1">We use Bluetooth signals to determine if you are near another OpenTrace user.</string>
-    <string name="tv_howitworks_explanation_2">This proximity data is encrypted and stored only on your phone.</string>
-    <string name="tv_howitworks_explanation_3">OTC will seek your consent to upload the data, if it\'s needed for contact tracing.</string>
-    <string name="mobile_number">Mobile number</string>
-    <string name="register_number">Register your mobile number</string>
-    <string name="register_number_details">We\'ll contact you if you had close contact with a COVID-19 case.</string>
-    <string name="register_number_family">Setting up for your family? \nUse their number instead of yours.</string>
-    <string name="invalid_length">Needs to be 8-digits</string>
-    <string name="invalid_number">Invalid Mobile Number</string>
-
-    <string name="enter_otp">Enter your OTP</string>
-    <string name="otp_sent">A 6-digit code has been sent to %s.</string>
-    <string name="resend_code"><u>Resend Code</u></string>
-
-    <string name="setup_app_permission">\Set up app permissions</string>
-    <string name="setup_app_permission_title">Select \'<b>Yes</b>\' or \'<b>Allow</b>\' for the next few screens to set up.</string>
-    <string name="bluetooth">1. Bluetooth</string>
-    <string name="location_permissions">2. Location Permissions</string>
-    <string name="battery_optimiser_opt">3. Battery Optimiser</string>
-    <string name="notes">Android needs Location Permissions for Bluetooth to work. We don\'t have access to your physical location.</string>
-    <string name="proceed">Proceed</string>
-    <string name="continue_">Continue</string>
-    <string name="get_otp">Get OTP</string>
-    <string name="wrong_number"><u>Wrong Number?</u></string>
-    <string name="app_permission_fully_setup">App permissions are fully set up</string>
-    <string name="app_permission_fully_setup_desc">Please leave all settings on until the outbreak ends.</string>
-
-    <string name="send_otp">We\'ll text you a One-Time Pin (OTP)</string>
-
-    <string name="app_permission_status">App Permissions Status</string>
-    <string name="bluetooth_on">Bluetooth: On</string>
-    <string name="location_on">Location Permission: On</string>
-    <string name="battery_optimiser">Battery Optimisation: Off</string>
-    <string name="push_noti">Push Notification: On</string>
-    <string name="share_this_app">Share this app</string>
-    <string name="ask_friend">Ask your friends and family to help</string>
-    <string name="help_us_identify">Help stop the virus spread by allowing all permissions</string>
-    <string name="restart_app_setup">Complete app setup</string>
-    <string name="upload_data">Upload Data</string>
-    <string name="for_official_use">For use by contact tracers</string>
-    <string name="data_uploaded">Data has been uploaded to contact tracers</string>
-    <string name="upload_agreement">By uploading, you agree to share with OTC your OpenTrace proximity data for the past 21 days. <b>We do not collect any geolocation or personal data.</b></string>
-    <string name="enter_code">Enter Code</string>
-    <string name="submit">Submit</string>
-    <string name="open_location_setting">Application needs location permission in order to work. Do you want to enable location permission?</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
-    <string name="setup_incomplete">Setup is incomplete!</string>
-    <string name="ack_title">Your consent is needed for the following:</string>
-    <string name="ack_mobile">To store your mobile number in a secured OpenTrace registry</string>
-    <string name="ack_data">To allow OpenTrace users to send OTC information of encounters with you, if they are confirmed or suspected to have COVID-19</string>
-    <string name="otp">Please enter the OTP sent to your mobile phone via sms</string>
-    <string name="keep_push_on">Keep push notifications on too, so we can alert you if the app is not scanning.</string>
-    <string name="verification_failed">Verification failed. Please try again</string>
-    <string name="invalid_otp">Wrong OTP entered</string>
-    <string name="unknown_error">An error has occurred. Please try again</string>
-    <string name="must_be_six_digit">Must be a 6-digit number</string>
-    <string name="invalid_user">Your account has been disabled. Please contact support.</string>
-    <string name="too_many_requests">Too many requests. Please try again later.</string>
-
-    <string name="privacy_safeguards"><u>privacy safeguards</u></string>
-
-    <string name="service_ok_title">The app is scanning to keep you safe! :)</string>
-    <string name="service_ok_body">Restart phone if this notification disappears</string>
-
-    <string name="service_not_ok_title">Oh no! :(</string>
-    <string name="service_not_ok_body">The app is not scanning.</string>
-    <string name="service_not_ok_action">Check app now</string>
-
-    <!-- KCCEU Strings -->
-    <string name="title_monitor">Monitor</string>
-    <string name="title_upload">Infected</string>
-    <string name="title_help">Help</string>
-
-    <string name="how_to_help">The Coronavirus COVID-19 Lockdown App</string>
-    <string name="help_action">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
-    <string name="check_data_tracking"><u>Check what we are tracking</u></string>
-    <string name="share_message">Join me in stopping the spread of COVID-19! Download Coronavirus Lockdown Advice. Go to: https://www.government.nl/</string>
-
-    <string name="btn_track_my_condition">Track my condition</string>
     <string name="txt_how_do_you_feel_today">How do you feel today?</string>
     <string name="btn_im_feeling_good">I\'m feeling good</string>
     <string name="btn_not_feeling_good">I\'m not feeling quite right</string>
     <string name="txt_ok_great">Okay, great!</string>
     <string name="txt_find_out_more_about_your_condition">Let\'s find out more how you\'re feeling</string>
-    <string name="txt_we_would_like_to_help">We would like to help you</string>
-    <string name="btn_submit">Submit</string>
-    <string name="hint_first_name">First Name</string>
-    <string name="hint_last_name">Last Name</string>
-    <string name="hint_mobile_phone_number">Mobile phone number</string>
-    <string name="hint_email">Email</string>
-    <string name="hint_postcode">Postcode</string>
-
-    <!--Splash-->
-    <string name="splash_message">Coronavirus\nLockdown Advice</string>
-
-    <!--Upload-->
-    <string name="upload_title">If you have Coronavirus please let us know by uploading data</string>
-    <string name="upload_subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
-    <string name="upload_button">Next</string>
-    <!--Upload Enter pin-->
-    <string name="enter_pin_title">Please enter your pin</string>
-    <string name="enter_pin_subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
-    <string name="enter_pin_uploading_tandcs">By uploading, you agree too share with the Government of the Netherlands your bluetooth proximity data for the past 21 days. We don’t collect any geolocation or personal data.</string>
-    <string name="enter_pin_button">Upload data</string>
-    <string name="enter_pin_error_message">Invalid PIN</string>
-    <string name="enter_pin_loading_message">Uploading your data\nfor contact tracing\nplease wait…</string>
-    <!--Upload Success-->
-    <string name="upload_success_title">Thanks for your info</string>
-    <string name="upload_success_subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antiumed ut perspi.</string>
-    <string name="upload_success_button">OK</string>
-
     <string name="txt_yes">Yes</string>
     <string name="txt_no">No</string>
     <string name="txt_all_fields_mandatory">All fields are mandatory</string>
     <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice to keep you safe and sound</string>
-    <string name="txt_thanks_for_your_info">Thanks for sharing</string>
     <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Take a minute each day and track how you\'re feeling.</string>
     <string name="txt_stay_at_home_as_much_as_possible">Stay at home as much as possible and only go outside if it is really necessary to avoid further spread of the virus. For more information please visit: https://www.rivm.nl/en</string>
     <string name="btn_done">Done</string>
@@ -147,7 +58,15 @@
     <string name="txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips">You\'re experiencing symptoms of the Virus. Here are some tips:</string>
     <string name="txt_if_you_have_housemates_they_can_also_not_go_outside">If you have housemates, they can also not go outside.</string>
     <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If no one had any symptoms for more than 24 hours, you can go back outside.</string>
-    <string name="txt_please_fill_in_your_details">Please fill in your details. We would like to talk to you to get a better understanding of your symptomps and see how we can help.</string>
     <string name="txt_thanks_for_sharing_your_details_with_us">Thanks for sharing your details with us. We\'ll get back to you ASAP.</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_mobile_phone_number">Mobile phone number</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_postcode">Postcode</string>
+    <string name="btn_submit">Submit</string>
+    <string name="txt_please_fill_in_your_details">Please fill in your details. We would like to talk to you to get a better understanding of your symptomps and see how we can help.</string>
+    <string name="txt_we_would_like_to_help">We would like to help you</string>
+    <string name="txt_thanks_for_your_info">Thanks for sharing</string>
     <string name="txt_if_you_need_medical_help_please_call_your_gp">We\'ll get in touch with you ASAP. If in the meantime you need medical help, please call your GP.</string>
 </resources>

@@ -109,7 +109,7 @@ class HomeFragment : Fragment() {
             minimumFetchIntervalInSeconds = 3600
         }
         remoteConfig.setConfigSettingsAsync(configSettings)
-        remoteConfig.setDefaultsAsync(mapOf("ShareText" to getString(R.string.share_message)))
+        remoteConfig.setDefaultsAsync(mapOf("ShareText" to getString(R.string.home_share_message)))
         remoteConfig.fetchAndActivate()
             .addOnCompleteListener(activity as Activity) { task ->
                 if (task.isSuccessful) {

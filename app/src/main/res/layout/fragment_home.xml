@@ -67,21 +67,21 @@
                     style="@style/OnboardingTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/how_to_help"
+                    android:text="@string/home_how_to_help"
                     android:textSize="24sp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     style="@style/OnboardingDesc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/help_action"
+                    android:text="@string/home_help_action"
                     android:textSize="14sp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     style="@style/OnboardingDesc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/check_data_tracking"
+                    android:text="@string/home_check_data_tracking"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     android:textStyle="bold" />
@@ -383,7 +383,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="@string/btn_track_my_condition" />
+                android:text="@string/home_button_track_my_condition" />
 
             <FrameLayout
                 android:id="@+id/share_card_view"
@@ -413,7 +413,7 @@
                         android:gravity="left|center_vertical"
                         android:paddingLeft="12dp"
                         android:paddingRight="16dp"
-                        android:text="@string/share_this_app"
+                        android:text="@string/home_share_this_app"
                         android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold"
@@ -429,7 +429,7 @@
                         android:gravity="left|center_vertical"
                         android:paddingLeft="12dp"
                         android:paddingRight="16dp"
-                        android:text="@string/ask_friend"
+                        android:text="@string/home_ask_friend"
                         android:textColor="@color/grey_2"
                         android:textSize="16sp"
                         android:textStyle="normal"
