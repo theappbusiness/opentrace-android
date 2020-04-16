@@ -148,4 +148,8 @@
     <string name="txt_when_do_i_call_my_gp">When do I call my GP?</string>
     <string name="txt_there_is_no_need_to_worry_at_this_point">There is no need to worry at this point. Keep track of your symptoms daily. You call the doctor if you get sicker or if you need medical help, for example if you get a fever or if you experience unusual shortness of breath.</string>
     <string name="txt_please_do_not_visit_your_gp">Please do not visit your GP or local hospital, call your GP first.</string>
+    <string name="txt_advice_when_you_re_mild_experiencing_symptoms">Advice when you\'re mild experiencing symptoms</string>
+    <string name="txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips">You\'re experiencing symptoms of the Virus. Here are some tips:</string>
+    <string name="txt_if_you_have_housemates_they_can_also_not_go_outside">If you have housemates, they can also not go outside.</string>
+    <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If no one had any symptoms for more than 24 hours, you can go back outside.</string>
 </resources>

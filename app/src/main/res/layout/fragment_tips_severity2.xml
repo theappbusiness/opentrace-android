@@ -25,14 +25,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="@string/txt_advice_and_tips_to_keep_you_safe_and_sound" />
+            android:text="@string/txt_advice_when_you_re_mild_experiencing_symptoms" />
 
         <TextView
             style="@style/Body"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium."
+            android:text="@string/txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/title" />
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="10dp"
-            android:text="What do I do?" />
+            android:text="@string/txt_what_do_i_do" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -63,7 +63,7 @@
                 style="@style/Answer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Stay home. Make sure you feel better." />
+                android:text="@string/txt_stay_home_make_sure_you_feel_better" />
         </LinearLayout>
 
         <LinearLayout
@@ -84,7 +84,7 @@
                 style="@style/Answer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Don't go shopping or have vistors." />
+                android:text="@string/txt_don_t_go_shopping_or_have_visitors" />
         </LinearLayout>
 
         <LinearLayout
@@ -104,7 +104,7 @@
                 style="@style/Answer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ask others to go shopping for you or deliver at home. Ask if someone else can walk the dog." />
+                android:text="@string/txt_ask_others_to_go_shopping_for_you_or_deliver_at_home_ask_if_someone_else_can_walk_the_dog" />
         </LinearLayout>
 
         <TextView
@@ -113,63 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:layout_marginBottom="10dp"
-            android:text="What do my housemates do?" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            tools:ignore="UseCompoundDrawables">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingEnd="16sp"
-                android:src="@drawable/ic_tick"
-                tools:ignore="ContentDescription,RtlSymmetry" />
-
-            <TextView
-                style="@style/Answer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="If your housemates are feeling fine, the standard rules apply. " />
-        </LinearLayout>
-
-        <TextView
-            style="@style/Question"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="10dp"
-            android:text="When can I go back outside?" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            tools:ignore="UseCompoundDrawables">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingEnd="16sp"
-                android:src="@drawable/ic_tick"
-                tools:ignore="ContentDescription,RtlSymmetry" />
-
-            <TextView
-                style="@style/Answer"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="if you haven't had any symptomps for more than 24 hours, you can go back outside. " />
-        </LinearLayout>
-
-        <TextView
-            style="@style/Question"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="10dp"
-            android:text="When do I call a GP?" />
+            android:text="@string/txt_what_do_my_housemates_do" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -189,13 +133,12 @@
                 style="@style/Answer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Het is op dit moment niet nodig om je zorgen te maken. Houd je symptomen dagelijks bij. Je belt de huisarts als je zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt. " />
+                android:text="@string/txt_if_you_have_housemates_they_can_also_not_go_outside" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
             android:orientation="horizontal"
             tools:ignore="UseCompoundDrawables">
 
@@ -210,7 +153,56 @@
                 style="@style/Answer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ga niet naar de huisarts of het ziekenhuis toe, maar bel de huisarts." />
+                android:text="@string/txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/txt_when_do_i_call_my_gp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16sp"
+                android:src="@drawable/ic_tick"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                style="@style/Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_there_is_no_need_to_worry_at_this_point" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16sp"
+                android:src="@drawable/ic_tick"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                style="@style/Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_please_do_not_visit_your_gp" />
         </LinearLayout>
 
         <androidx.appcompat.widget.AppCompatButton

@@ -28,4 +28,8 @@
     <string name="txt_when_do_i_call_my_gp">Wanneer moet ik de huisarts bellen?</string>
     <string name="txt_there_is_no_need_to_worry_at_this_point">"Het is op dit moment niet nodig om je zorgen te maken. Houd je symptomen dagelijks bij. Je belt de huisarts als je zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt. "</string>
     <string name="txt_please_do_not_visit_your_gp">Ga niet naar de huisarts of het ziekenhuis toe, maar bel de huisarts.</string>
+    <string name="txt_advice_when_you_re_mild_experiencing_symptoms">Advies bij milde symptomen</string>
+    <string name="txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips">Je hebt klachten die bij het Coronavirus passen. We hebben een aantal tips voor je:</string>
+    <string name="txt_if_you_have_housemates_they_can_also_not_go_outside">Heb je huisgenoten, dan mogen zij ook niet naar buiten. Als uitzondering hierop mogen alleen huisgenoten die geen klachten hebben even boodschappen doen.</string>
+    <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">Als iedereen 24 uur geen klachten heeft, mag je weer naar buiten</string>
 </resources>
