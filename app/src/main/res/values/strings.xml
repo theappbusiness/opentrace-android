@@ -10,8 +10,6 @@
     <string name="tv_onboarding_desc_sub">To protect those around you, OTC may also ask you to share your data.</string>
     <string name="i_want_to_help">I want to help</string>
 
-    <string name="tv_howitworks_title">How OpenTrace works</string>
-    <string name="tv_howitworks_explanation_1">We use Bluetooth signals to determine if you are near another OpenTrace user.</string>
     <string name="tv_howitworks_explanation_2">This proximity data is encrypted and stored only on your phone.</string>
     <string name="tv_howitworks_explanation_3">OTC will seek your consent to upload the data, if it\'s needed for contact tracing.</string>
     <string name="mobile_number">Mobile number</string>
@@ -25,8 +23,6 @@
     <string name="otp_sent">A 6-digit code has been sent to %s.</string>
     <string name="resend_code"><u>Resend Code</u></string>
 
-    <string name="setup_app_permission">\Set up app permissions</string>
-    <string name="setup_app_permission_title">Select \'<b>Yes</b>\' or \'<b>Allow</b>\' for the next few screens to set up.</string>
     <string name="bluetooth">1. Bluetooth</string>
     <string name="location_permissions">2. Location Permissions</string>
     <string name="battery_optimiser_opt">3. Battery Optimiser</string>
@@ -110,4 +106,8 @@
     <string name="txt_all_fields_mandatory">All fields are mandatory</string>
     <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice and tips to keep you safe and sound</string>
     <string name="txt_thanks_for_your_info">Thanks for your info</string>
+    <string name="welcome_title">Welcome to the Coronavirus COVID-19 Lockdown App</string>
+    <string name="welcome_explanation_1">A tool to reduce the spread of infectious diseases like COVID-19 through social distancing.</string>
+    <string name="agree_title">Your data is private and we only use non personal information</string>
+    <string name="agree_desc">In order for use to reduce the spread of Coronavirus please accept and agree to the following.</string>
 </resources>
