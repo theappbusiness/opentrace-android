@@ -11,4 +11,11 @@
     <string name="btn_not_feeling_good">"Ik voel mij niet goed "</string>
     <string name="txt_ok_great">"Fijn om te horen! "</string>
     <string name="txt_stay_at_home_as_much_as_possible">"Blijf zo veel mogelijk thuis en ga alleen naar buiten als dit echt nodig is om verdere verspreiding van het Corona virus te voorkomen. Kijk voor meer informatie op: https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden "</string>
+    <string name="btn_done">Klaar</string>
+    <string name="txt_find_out_more_about_your_condition">Waar heb je last van?</string>
+    <string name="txt_please_fill_in_the_form">"Vul de vragen in. Wij kunnen zo een beter beeld krijgen hoe je je voelt. "</string>
+    <string name="txt_yes">Ja</string>
+    <string name="txt_no">Nee</string>
+    <string name="txt_what_do_i_do">"Wat moet ik doen? "</string>
+    <string name="txt_stay_home_make_sure_you_feel_better">"Blijf thuis. Ziek uit. "</string>
 </resources>

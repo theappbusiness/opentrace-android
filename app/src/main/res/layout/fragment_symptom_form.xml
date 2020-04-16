@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium. " />
+            android:text="@string/txt_please_fill_in_the_form" />
 
         <LinearLayout
             android:id="@+id/questions_container"

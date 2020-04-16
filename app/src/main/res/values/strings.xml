@@ -96,7 +96,7 @@
     <string name="btn_im_feeling_good">I\'m feeling good</string>
     <string name="btn_not_feeling_good">I\'m not feeling quite right</string>
     <string name="txt_ok_great">Okay, great!</string>
-    <string name="txt_find_out_more_about_your_condition">Let’s find out more about your condition</string>
+    <string name="txt_find_out_more_about_your_condition">Let\'s find out more how you\'re feeling</string>
     <string name="txt_please_enter_your_details">Please enter your details</string>
     <string name="btn_submit">Submit</string>
     <string name="hint_first_name">First Name</string>
@@ -108,8 +108,14 @@
     <string name="txt_yes">Yes</string>
     <string name="txt_no">No</string>
     <string name="txt_all_fields_mandatory">All fields are mandatory</string>
-    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice and tips to keep you safe and sound</string>
+    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice to keep you safe and sound</string>
     <string name="txt_thanks_for_your_info">Thanks for your info</string>
     <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Take a minute each day and track how you\'re feeling.</string>
     <string name="txt_stay_at_home_as_much_as_possible">Stay at home as much as possible and only go outside if it is really necessary to avoid further spread of the virus. For more information please visit: https://www.rivm.nl/en</string>
+    <string name="btn_done">Done</string>
+    <string name="txt_please_fill_in_the_form">Please fill in the form. We\'ll be able to get a better understanding of your symptoms</string>
+    <string name="txt_what_do_i_do">What do I do?</string>
+    <string name="txt_stay_home_make_sure_you_feel_better">Stay home. Make sure you feel better.</string>
+    <string name="txt_don_t_go_shopping_or_have_visitors">Don\'t go shopping or have visitors</string>
+    <string name="txt_ask_others_to_go_shopping_for_you_or_deliver_at_home_ask_if_someone_else_can_walk_the_dog">Ask others to go shopping for you or deliver at home. Ask if someone else can walk the dog.</string>
 </resources>

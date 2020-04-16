@@ -1,36 +1,41 @@
 {
-    "thresholdSeverity1": 50,
+    "thresholdSeverity1": 10,
     "thresholdSeverity2": 100,
     "thresholdContact": 200,
     "questions": [
         {
-            "text": "Do you feel like you're having a cold? like xxxx",
-            "yesScore": 50,
+            "text": "Heb je hoofdpijn?",
+            "yesScore": 10,
             "noScore": 0
         },
         {
-            "text": "Do you have a fever over 38 degrees?",
+            "text": "Heb je koorts?",
             "yesScore": 100,
             "noScore": 0
         },
         {
-            "text": "Has your temperature been over 38 degrees for 2 days?",
-            "yesScore": 100,
+            "text": "Als je koorts hebt, heb je dan meer dan 38 graden koorts?",
+            "yesScore": 200,
             "noScore": 0
         },
         {
-            "text": "Do you have a persistent cough?",
-            "yesScore": 0,
+            "text": "Hoest je?",
+            "yesScore": 10,
             "noScore": 0
         },
         {
-            "text": "Are you experiencing unsual shortness of breath?",
-            "yesScore": 0,
+            "text": "Voel je je benauwd?",
+            "yesScore": 200,
             "noScore": 0
         },
         {
-            "text": "Do you have a sore throat?",
-            "yesScore": 0,
+            "text": "Heb je last van je keel?",
+            "yesScore": 10,
+            "noScore": 0
+        },
+        {
+            "text": "Heb je meer last van spierpijn dan normaal?",
+            "yesScore": 10,
             "noScore": 0
         }
     ]
