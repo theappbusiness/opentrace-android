@@ -31,11 +31,6 @@
     <string name="upload_success_subtitle">Wij zullen het bron- en contact onderzoek starten en de juiste personen op de hoogste stellen. Alleen samen krijgen we Corona onder controle.</string>
     <string name="upload_success_button">OK</string>
 
-    <string name="title_monitor">Monitor</string>
-    <string name="title_upload">Besmet</string>
-    <string name="title_help">Help</string>
-    <string name="share_this_app">Deel deze app</string>
-    <string name="ask_friend">Vraag jouw vrienden en familie om te helpen</string>
     <string name="txt_how_do_you_feel_today">Hoe voel je je vandaag?</string>
     <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Houd dagelijks bij hoe je je voelt. Door dit bij te houden kunnen wij je beter helpen.</string>
     <string name="btn_im_feeling_good">Ik voel mij normaal</string>
@@ -69,6 +64,8 @@
     <string name="hint_mobile_phone_number">"Telefoonnummer "</string>
     <string name="hint_last_name">Achternaam</string>
     <string name="hint_first_name">Voornaam</string>
+    <string name="btn_submit">Submit</string>
+    <string name="txt_all_fields_mandatory">All fields are mandatory</string>
     <string name="txt_please_fill_in_your_details">"Vul je gegevens in. We willen graag contact met je opnemen om te horen hoe het met je gaat en om je verder te helpen. "</string>
     <string name="txt_we_would_like_to_help">We willen je graag helpen</string>
     <string name="txt_thanks_for_your_info">Bedankt voor het delen.</string>

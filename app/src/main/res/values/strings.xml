@@ -30,11 +30,15 @@
     <string name="upload_success_subtitle">We\'ll inform the individuals you\'ve recently been in contact with to avoid the Coronavirus from spreading.</string>
     <string name="upload_success_button">OK</string>
 
+    <string name="txt_how_do_you_feel_today">How do you feel today?</string>
+    <string name="btn_im_feeling_good">I\'m feeling good</string>
+    <string name="btn_not_feeling_good">I\'m not feeling quite right</string>
+    <string name="txt_ok_great">Okay, great!</string>
+    <string name="txt_find_out_more_about_your_condition">Let\'s find out more how you\'re feeling</string>
     <string name="txt_yes">Yes</string>
     <string name="txt_no">No</string>
     <string name="txt_all_fields_mandatory">All fields are mandatory</string>
     <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice to keep you safe and sound</string>
-    <string name="txt_thanks_for_your_info">Thanks for sharing</string>
     <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Take a minute each day and track how you\'re feeling.</string>
     <string name="txt_stay_at_home_as_much_as_possible">Stay at home as much as possible and only go outside if it is really necessary to avoid further spread of the virus. For more information please visit: https://www.rivm.nl/en</string>
     <string name="btn_done">Done</string>
@@ -54,7 +58,15 @@
     <string name="txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips">You\'re experiencing symptoms of the Virus. Here are some tips:</string>
     <string name="txt_if_you_have_housemates_they_can_also_not_go_outside">If you have housemates, they can also not go outside.</string>
     <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If no one had any symptoms for more than 24 hours, you can go back outside.</string>
-    <string name="txt_please_fill_in_your_details">Please fill in your details. We would like to talk to you to get a better understanding of your symptomps and see how we can help.</string>
     <string name="txt_thanks_for_sharing_your_details_with_us">Thanks for sharing your details with us. We\'ll get back to you ASAP.</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_mobile_phone_number">Mobile phone number</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_postcode">Postcode</string>
+    <string name="btn_submit">Submit</string>
+    <string name="txt_please_fill_in_your_details">Please fill in your details. We would like to talk to you to get a better understanding of your symptomps and see how we can help.</string>
+    <string name="txt_we_would_like_to_help">We would like to help you</string>
+    <string name="txt_thanks_for_your_info">Thanks for sharing</string>
     <string name="txt_if_you_need_medical_help_please_call_your_gp">We\'ll get in touch with you ASAP. If in the meantime you need medical help, please call your GP.</string>
 </resources>
