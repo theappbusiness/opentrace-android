@@ -88,4 +88,19 @@
     <string name="service_not_ok_action">Check app now</string>
 
     <string name="share_message">Join me in stopping the spread of COVID-19! Download OpenTrace. Go to: https://bluetrace.io</string>
+
+    <!-- KCCEU Strings -->
+    <string name="btn_track_my_condition">Track my condition</string>
+    <string name="txt_how_do_you_feel_today">How do you feel today?</string>
+    <string name="btn_im_feeling_good">I\'m feeling good</string>
+    <string name="btn_not_feeling_good">I\'m not feeling quite right</string>
+    <string name="txt_ok_great">Ok, great!</string>
+    <string name="txt_find_out_more_about_your_condition">Let’s find out more about your condition</string>
+    <string name="txt_please_enter_your_details">Please enter your details</string>
+    <string name="btn_submit">Submit</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_mobile_phone_number">Mobile phone number</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_postcode">Postcode</string>
 </resources>

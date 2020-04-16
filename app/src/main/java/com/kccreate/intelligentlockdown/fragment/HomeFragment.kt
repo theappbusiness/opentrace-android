@@ -26,14 +26,15 @@ import com.google.firebase.ktx.Firebase
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
-import kotlinx.android.synthetic.main.fragment_home.*
-import pub.devrel.easypermissions.AfterPermissionGranted
-import pub.devrel.easypermissions.EasyPermissions
 import com.kccreate.intelligentlockdown.*
+import com.kccreate.intelligentlockdown.healthmonitor.HealthMonitorActivity
 import com.kccreate.intelligentlockdown.logging.CentralLog
 import com.kccreate.intelligentlockdown.onboarding.OnboardingActivity
 import com.kccreate.intelligentlockdown.status.persistence.StatusRecord
 import com.kccreate.intelligentlockdown.streetpass.persistence.StreetPassRecordDatabase
+import kotlinx.android.synthetic.main.fragment_home.*
+import pub.devrel.easypermissions.AfterPermissionGranted
+import pub.devrel.easypermissions.EasyPermissions
 
 private const val REQUEST_ENABLE_BT = 123
 private const val PERMISSION_REQUEST_ACCESS_LOCATION = 456
@@ -96,6 +97,11 @@ class HomeFragment : Fragment() {
 
         btn_announcement_close.setOnClickListener {
             clearAndHideAnnouncement()
+        }
+
+        start_tracking.setOnClickListener {
+            val intent = HealthMonitorActivity.newIntent(requireContext())
+            startActivity(intent)
         }
 
         remoteConfig = Firebase.remoteConfig

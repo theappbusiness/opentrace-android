@@ -1,0 +1,37 @@
+{
+    "thresholdSeverity1": 50,
+    "thresholdSeverity2": 100,
+    "thresholdContact": 200,
+    "questions": [
+        {
+            "text": "Do you feel like you're having a cold? like XXXXXXXXX",
+            "yesScore": 50,
+            "noScore": 0
+        },
+        {
+            "text": "Do you have a fever over 38 degrees?",
+            "yesScore": 100,
+            "noScore": 0
+        },
+        {
+            "text": "Has your temperature been over 38 degrees for 2 days?",
+            "yesScore": 100,
+            "noScore": 0
+        },
+        {
+            "text": "Do you have a persistent cough?",
+            "yesScore": 0,
+            "noScore": 0
+        },
+        {
+            "text": "Are you experiencing unsual shortness of breath?",
+            "yesScore": 0,
+            "noScore": 0
+        },
+        {
+            "text": "Do you have a sore throat?",
+            "yesScore": 0,
+            "noScore": 0
+        }
+    ]
+}

@@ -103,6 +103,11 @@
             android:name="com.kccreate.intelligentlockdown.PlotActivity"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.DebugNoActionBar" />
+        <activity
+            android:name=".healthmonitor.HealthMonitorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MaterialAppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
 
         <receiver android:name=".receivers.UpgradeReceiver">
             <intent-filter>
