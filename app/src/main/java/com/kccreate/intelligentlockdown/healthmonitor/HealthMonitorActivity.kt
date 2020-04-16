@@ -34,8 +34,8 @@ class HealthMonitorActivity : AppCompatActivity() {
     private fun onSymptomsResult(symptomsResult: SymptomsResult) {
         when(symptomsResult){
             LockDown -> replaceFragment(OkGreatFragment.newInstance()) //FIXME Maybe?
-            Severity1 -> Toast.makeText(this, "Severity1", Toast.LENGTH_SHORT).show() //TODO
-            Severity2 -> Toast.makeText(this, "Severity2", Toast.LENGTH_SHORT).show() //TODO
+            Severity1 -> replaceFragment(TipsSeverity1Fragment.newInstance())
+            Severity2 -> replaceFragment(TipsSeverity2Fragment.newInstance())
             ContactForm -> replaceFragment(ContactFormFragment.newInstance())
         }
     }
