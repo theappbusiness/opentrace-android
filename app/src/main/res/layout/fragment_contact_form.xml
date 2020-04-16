@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="@string/txt_please_enter_your_details" />
+            android:text="@string/txt_we_would_like_to_help" />
 
         <TextView
             android:id="@+id/message1"
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Sed ut perspiciatis unde omnis iste natusis unde omnis iste natus error sit voluptatem accus antiumed ut perspi." />
+            android:text="@string/txt_please_fill_in_your_details" />
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -113,7 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="Sed ut perspiciatis unde omnis iste natusis unde omnis iste natus error sit voluptatem accus antiumed ut perspi." />
+            android:text="@string/txt_thanks_for_sharing_your_details_with_us" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/submit"

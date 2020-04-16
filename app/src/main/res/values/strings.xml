@@ -2,7 +2,7 @@
     <string name="see_connections">See connections</string>
     <string name="stop">Stop</string>
     <string name="permission_location_rationale">Please allow Location Permissions - Google requires this for your phone to scan for another phone’s Bluetooth. We do not use or store your location.</string>
-    <string name="permission_write_rationale">OpenTrace needs save files for logs (Debug builds only)</string>
+    <string name="permission_write_rationale">This app needs save files for logs (Debug builds only)</string>
     <string name="ble_not_supported">This device does not support BLE</string>
 
     <string name="tv_onboarding_title">Help stop the spread of COVID-19 by turning Bluetooth on</string>
@@ -10,7 +10,7 @@
     <string name="tv_onboarding_desc_sub">To protect those around you, OTC may also ask you to share your data.</string>
     <string name="i_want_to_help">I want to help</string>
 
-    <string name="tv_howitworks_title">How OpenTrace works</string>
+    <string name="tv_howitworks_title">How this app works</string>
     <string name="tv_howitworks_explanation_1">We use Bluetooth signals to determine if you are near another OpenTrace user.</string>
     <string name="tv_howitworks_explanation_2">This proximity data is encrypted and stored only on your phone.</string>
     <string name="tv_howitworks_explanation_3">OTC will seek your consent to upload the data, if it\'s needed for contact tracing.</string>
@@ -40,21 +40,13 @@
 
     <string name="send_otp">We\'ll text you a One-Time Pin (OTP)</string>
 
-    <string name="title_monitor">Monitor</string>
-    <string name="title_upload">Infected</string>
-    <string name="title_help">Help</string>
-
-    <string name="how_to_help">The Coronavirus COVID-19 Lockdown App</string>
-    <string name="help_action">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
-    <string name="check_data_tracking"><u>Check what we are tracking</u></string>
-
     <string name="app_permission_status">App Permissions Status</string>
     <string name="bluetooth_on">Bluetooth: On</string>
     <string name="location_on">Location Permission: On</string>
     <string name="battery_optimiser">Battery Optimisation: Off</string>
     <string name="push_noti">Push Notification: On</string>
     <string name="share_this_app">Share this app</string>
-    <string name="ask_friend">Ask friends and family to help</string>
+    <string name="ask_friend">Ask your friends and family to help</string>
     <string name="help_us_identify">Help stop the virus spread by allowing all permissions</string>
     <string name="restart_app_setup">Complete app setup</string>
     <string name="upload_data">Upload Data</string>
@@ -81,23 +73,30 @@
 
     <string name="privacy_safeguards"><u>privacy safeguards</u></string>
 
-    <string name="service_ok_title">OpenTrace is scanning to keep you safe! :)</string>
+    <string name="service_ok_title">The app is scanning to keep you safe! :)</string>
     <string name="service_ok_body">Restart phone if this notification disappears</string>
 
     <string name="service_not_ok_title">Oh no! :(</string>
-    <string name="service_not_ok_body">OpenTrace is not scanning.</string>
+    <string name="service_not_ok_body">The app is not scanning.</string>
     <string name="service_not_ok_action">Check app now</string>
 
-    <string name="share_message">Join me in stopping the spread of COVID-19! Download OpenTrace. Go to: https://bluetrace.io</string>
-
     <!-- KCCEU Strings -->
+    <string name="title_monitor">Monitor</string>
+    <string name="title_upload">Infected</string>
+    <string name="title_help">Help</string>
+
+    <string name="how_to_help">The Coronavirus COVID-19 Lockdown App</string>
+    <string name="help_action">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
+    <string name="check_data_tracking"><u>Check what we are tracking</u></string>
+    <string name="share_message">Join me in stopping the spread of COVID-19! Download Coronavirus Lockdown Advice. Go to: https://www.government.nl/</string>
+
     <string name="btn_track_my_condition">Track my condition</string>
     <string name="txt_how_do_you_feel_today">How do you feel today?</string>
     <string name="btn_im_feeling_good">I\'m feeling good</string>
     <string name="btn_not_feeling_good">I\'m not feeling quite right</string>
-    <string name="txt_ok_great">Ok, great!</string>
-    <string name="txt_find_out_more_about_your_condition">Let’s find out more about your condition</string>
-    <string name="txt_please_enter_your_details">Please enter your details</string>
+    <string name="txt_ok_great">Okay, great!</string>
+    <string name="txt_find_out_more_about_your_condition">Let\'s find out more how you\'re feeling</string>
+    <string name="txt_we_would_like_to_help">We would like to help you</string>
     <string name="btn_submit">Submit</string>
     <string name="hint_first_name">First Name</string>
     <string name="hint_last_name">Last Name</string>
@@ -127,6 +126,28 @@
     <string name="txt_yes">Yes</string>
     <string name="txt_no">No</string>
     <string name="txt_all_fields_mandatory">All fields are mandatory</string>
-    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice and tips to keep you safe and sound</string>
-    <string name="txt_thanks_for_your_info">Thanks for your info</string>
+    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice to keep you safe and sound</string>
+    <string name="txt_thanks_for_your_info">Thanks for sharing</string>
+    <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Take a minute each day and track how you\'re feeling.</string>
+    <string name="txt_stay_at_home_as_much_as_possible">Stay at home as much as possible and only go outside if it is really necessary to avoid further spread of the virus. For more information please visit: https://www.rivm.nl/en</string>
+    <string name="btn_done">Done</string>
+    <string name="txt_please_fill_in_the_form">Please fill in the form. We\'ll be able to get a better understanding of your symptoms</string>
+    <string name="txt_what_do_i_do">What do I do?</string>
+    <string name="txt_stay_home_make_sure_you_feel_better">Stay home. Make sure you feel better.</string>
+    <string name="txt_don_t_go_shopping_or_have_visitors">Don\'t go shopping or have visitors</string>
+    <string name="txt_ask_others_to_go_shopping_for_you_or_deliver_at_home_ask_if_someone_else_can_walk_the_dog">Ask others to go shopping for you or deliver at home. Ask if someone else can walk the dog.</string>
+    <string name="txt_here_are_some_tips">You\'re experiencing potential symptoms of the Virus. Here are some tips:</string>
+    <string name="txt_what_do_my_housemates_do">What do my housemates do?</string>
+    <string name="txt_for_household_members_without_symptoms_the_same_rules_apply_for_everyone_in_the_netherlands">For household members without symptoms the same rules apply for everyone in the Netherlands.</string>
+    <string name="txt_if_you_haven_t_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If you haven\'t had any symptoms for more than 24 hours, you can go back outside.</string>
+    <string name="txt_when_do_i_call_my_gp">When do I call my GP?</string>
+    <string name="txt_there_is_no_need_to_worry_at_this_point">There is no need to worry at this point. Keep track of your symptoms daily. You call the doctor if you get sicker or if you need medical help, for example if you get a fever or if you experience unusual shortness of breath.</string>
+    <string name="txt_please_do_not_visit_your_gp">Please do not visit your GP or local hospital, call your GP first.</string>
+    <string name="txt_advice_when_you_re_mild_experiencing_symptoms">Advice when you\'re mild experiencing symptoms</string>
+    <string name="txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips">You\'re experiencing symptoms of the Virus. Here are some tips:</string>
+    <string name="txt_if_you_have_housemates_they_can_also_not_go_outside">If you have housemates, they can also not go outside.</string>
+    <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If no one had any symptoms for more than 24 hours, you can go back outside.</string>
+    <string name="txt_please_fill_in_your_details">Please fill in your details. We would like to talk to you to get a better understanding of your symptomps and see how we can help.</string>
+    <string name="txt_thanks_for_sharing_your_details_with_us">Thanks for sharing your details with us. We\'ll get back to you ASAP.</string>
+    <string name="txt_if_you_need_medical_help_please_call_your_gp">We\'ll get in touch with you ASAP. If in the meantime you need medical help, please call your GP.</string>
 </resources>

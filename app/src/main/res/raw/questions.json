@@ -1,36 +1,41 @@
 {
-    "thresholdSeverity1": 50,
+    "thresholdSeverity1": 10,
     "thresholdSeverity2": 100,
     "thresholdContact": 200,
     "questions": [
         {
-            "text": "Do you feel like you’re having a cold?",
-            "yesScore": 50,
+            "text": "Do you have a headache?",
+            "yesScore": 10,
             "noScore": 0
         },
         {
-            "text": "Do you have a fever over 38 degrees?",
+            "text": "Do you have a fever?",
             "yesScore": 100,
             "noScore": 0
         },
         {
-            "text": "Has your temperature been over 38 degrees for 2 days?",
-            "yesScore": 100,
+            "text": "If you have a fever, is it over 38 degrees?",
+            "yesScore": 200,
             "noScore": 0
         },
         {
             "text": "Do you have a persistent cough?",
-            "yesScore": 0,
+            "yesScore": 10,
             "noScore": 0
         },
         {
             "text": "Are you experiencing unusual shortness of breath?",
-            "yesScore": 0,
+            "yesScore": 200,
             "noScore": 0
         },
         {
             "text": "Do you have a sore throat?",
-            "yesScore": 0,
+            "yesScore": 10,
+            "noScore": 0
+        },
+        {
+            "text": "Do you have unusual strong muscle pains?",
+            "yesScore": 10,
             "noScore": 0
         }
     ]
