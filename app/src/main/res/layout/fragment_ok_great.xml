@@ -33,7 +33,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antiumed ut perspi."
+        android:text="@string/txt_stay_at_home_as_much_as_possible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title" />

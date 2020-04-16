@@ -2,7 +2,7 @@
     <string name="see_connections">See connections</string>
     <string name="stop">Stop</string>
     <string name="permission_location_rationale">Please allow Location Permissions - Google requires this for your phone to scan for another phone’s Bluetooth. We do not use or store your location.</string>
-    <string name="permission_write_rationale">OpenTrace needs save files for logs (Debug builds only)</string>
+    <string name="permission_write_rationale">This app needs save files for logs (Debug builds only)</string>
     <string name="ble_not_supported">This device does not support BLE</string>
 
     <string name="tv_onboarding_title">Help stop the spread of COVID-19 by turning Bluetooth on</string>
@@ -10,7 +10,7 @@
     <string name="tv_onboarding_desc_sub">To protect those around you, OTC may also ask you to share your data.</string>
     <string name="i_want_to_help">I want to help</string>
 
-    <string name="tv_howitworks_title">How OpenTrace works</string>
+    <string name="tv_howitworks_title">How this app works</string>
     <string name="tv_howitworks_explanation_1">We use Bluetooth signals to determine if you are near another OpenTrace user.</string>
     <string name="tv_howitworks_explanation_2">This proximity data is encrypted and stored only on your phone.</string>
     <string name="tv_howitworks_explanation_3">OTC will seek your consent to upload the data, if it\'s needed for contact tracing.</string>
@@ -74,11 +74,11 @@
 
     <string name="privacy_safeguards"><u>privacy safeguards</u></string>
 
-    <string name="service_ok_title">OpenTrace is scanning to keep you safe! :)</string>
+    <string name="service_ok_title">The app is scanning to keep you safe! :)</string>
     <string name="service_ok_body">Restart phone if this notification disappears</string>
 
     <string name="service_not_ok_title">Oh no! :(</string>
-    <string name="service_not_ok_body">OpenTrace is not scanning.</string>
+    <string name="service_not_ok_body">The app is not scanning.</string>
     <string name="service_not_ok_action">Check app now</string>
 
     <!-- KCCEU Strings -->
@@ -95,7 +95,7 @@
     <string name="txt_how_do_you_feel_today">How do you feel today?</string>
     <string name="btn_im_feeling_good">I\'m feeling good</string>
     <string name="btn_not_feeling_good">I\'m not feeling quite right</string>
-    <string name="txt_ok_great">Ok, great!</string>
+    <string name="txt_ok_great">Okay, great!</string>
     <string name="txt_find_out_more_about_your_condition">Let’s find out more about your condition</string>
     <string name="txt_please_enter_your_details">Please enter your details</string>
     <string name="btn_submit">Submit</string>
@@ -110,4 +110,6 @@
     <string name="txt_all_fields_mandatory">All fields are mandatory</string>
     <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice and tips to keep you safe and sound</string>
     <string name="txt_thanks_for_your_info">Thanks for your info</string>
+    <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Take a minute each day and track how you\'re feeling.</string>
+    <string name="txt_stay_at_home_as_much_as_possible">Stay at home as much as possible and only go outside if it is really necessary to avoid further spread of the virus. For more information please visit: https://www.rivm.nl/en</string>
 </resources>
