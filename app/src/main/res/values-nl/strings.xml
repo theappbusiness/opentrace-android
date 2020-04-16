@@ -42,4 +42,6 @@
     <string name="txt_we_would_like_to_help">We willen je graag helpen</string>
     <string name="txt_thanks_for_your_info">Bedankt voor het delen.</string>
     <string name="txt_if_you_need_medical_help_please_call_your_gp">Wij nemen zo snel mogelijk contact met op. Als je ondertussen zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt bel je de huisarts.</string>
+    <string name="btn_submit">Verzend</string>
+    <string name="submit">Verzend</string>
 </resources>

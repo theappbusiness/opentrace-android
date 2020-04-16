@@ -11,7 +11,7 @@ import com.kccreate.intelligentlockdown.healthmonitor.model.Question
 import com.kccreate.intelligentlockdown.healthmonitor.model.TrackerQuestions
 import java.io.BufferedReader
 
-enum class SymptomsResult { LockDown, Severity1, Severity2, ContactForm }
+enum class SymptomsResult { Severity1, Severity2, ContactForm }
 
 class HealthMonitorViewModel(private val app: Application) : AndroidViewModel(app) {
 
@@ -39,8 +39,7 @@ class HealthMonitorViewModel(private val app: Application) : AndroidViewModel(ap
         symptomsResult.value = when {
             score >= trackerQuestions.thresholdContact -> SymptomsResult.ContactForm
             score >= trackerQuestions.thresholdSeverity2 -> SymptomsResult.Severity2
-            score >= trackerQuestions.thresholdSeverity1 -> SymptomsResult.Severity1
-            else -> SymptomsResult.LockDown
+            else -> SymptomsResult.Severity1
         }
     }
 
