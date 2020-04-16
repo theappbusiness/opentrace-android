@@ -42,7 +42,6 @@ class HealthMonitorActivity : AppCompatActivity() {
 
     private fun onSymptomsResult(symptomsResult: SymptomsResult) {
         when (symptomsResult) {
-            LockDown -> replaceFragment(OkGreatFragment.newInstance())
             Severity1 -> replaceFragment(TipsSeverity1Fragment.newInstance())
             Severity2 -> replaceFragment(TipsSeverity2Fragment.newInstance())
             ContactForm -> replaceFragment(ContactFormFragment.newInstance())
