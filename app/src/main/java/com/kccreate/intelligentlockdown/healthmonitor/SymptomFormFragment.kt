@@ -38,7 +38,7 @@ class SymptomFormFragment : Fragment(R.layout.fragment_symptom_form) {
 
         submitButton.setOnClickListener {
             val answers =
-                questions.map { it.getResult() }.filterNot { it.answer == Answer.Unknown }.toList()
+                questions.map { it.getAnswer() }.filterNot { it.answer == Answer.Unknown }.toList()
 
             if (answers.size != questions.size) {
                 AlertDialog.Builder(requireContext())

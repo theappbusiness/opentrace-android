@@ -34,7 +34,7 @@ class YesNoQuestionView @JvmOverloads constructor(
         questionTextView.text = question.text
     }
 
-    fun getResult() = when {
+    fun getAnswer() = when {
         yesOption.isChecked -> question.copy(answer = Answer.Yes)
         noOption.isChecked -> question.copy(answer = Answer.No)
         else -> question.copy(answer = Answer.Unknown)
