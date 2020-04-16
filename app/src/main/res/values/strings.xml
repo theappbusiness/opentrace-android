@@ -40,14 +40,7 @@
 
     <string name="send_otp">We\'ll text you a One-Time Pin (OTP)</string>
 
-    <string name="title_monitor">Monitor</string>
-    <string name="title_upload">Infected</string>
-    <string name="title_help">Help</string>
 
-    <string name="how_to_help">The Coronavirus COVID-19 Lockdown App</string>
-    <string name="help_action">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
-    <string name="check_data_tracking"><u>Check what we are tracking</u></string>
-   
     <string name="app_permission_status">App Permissions Status</string>
     <string name="bluetooth_on">Bluetooth: On</string>
     <string name="location_on">Location Permission: On</string>
@@ -88,9 +81,16 @@
     <string name="service_not_ok_body">OpenTrace is not scanning.</string>
     <string name="service_not_ok_action">Check app now</string>
 
-    <string name="share_message">Join me in stopping the spread of COVID-19! Download OpenTrace. Go to: https://bluetrace.io</string>
-
     <!-- KCCEU Strings -->
+    <string name="title_monitor">Monitor</string>
+    <string name="title_upload">Infected</string>
+    <string name="title_help">Help</string>
+
+    <string name="how_to_help">The Coronavirus COVID-19 Lockdown App</string>
+    <string name="help_action">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
+    <string name="check_data_tracking"><u>Check what we are tracking</u></string>
+    <string name="share_message">Join me in stopping the spread of COVID-19! Download Coronavirus Lockdown Advice. Go to: https://www.government.nl/</string>
+
     <string name="btn_track_my_condition">Track my condition</string>
     <string name="txt_how_do_you_feel_today">How do you feel today?</string>
     <string name="btn_im_feeling_good">I\'m feeling good</string>

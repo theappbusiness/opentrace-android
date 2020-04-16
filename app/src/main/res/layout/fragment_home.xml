@@ -30,7 +30,7 @@
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/light_blue"
+                    android:layout_marginTop="16dp"
                     android:orientation="vertical"
                     android:paddingLeft="16dp"
                     android:paddingRight="16dp"
@@ -45,7 +45,7 @@
                         android:paddingEnd="70dp"
                         app:layout_constraintLeft_toLeftOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/scene_inside_home" />
+                        app:srcCompat="@drawable/ic_scene_inside_home" />
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_last_update"
@@ -67,24 +67,24 @@
                     style="@style/OnboardingTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="24sp"
-                    android:text="@string/how_to_help" />
+                    android:text="@string/how_to_help"
+                    android:textSize="24sp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     style="@style/OnboardingDesc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:text="@string/help_action" />
+                    android:text="@string/help_action"
+                    android:textSize="14sp" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     style="@style/OnboardingDesc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
+                    android:text="@string/check_data_tracking"
                     android:textColor="@color/black"
-                    android:text="@string/check_data_tracking" />
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -385,18 +385,14 @@
                 android:layout_margin="16dp"
                 android:text="@string/btn_track_my_condition" />
 
-            <androidx.cardview.widget.CardView
+            <FrameLayout
                 android:id="@+id/share_card_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="24dp"
-                card_view:cardBackgroundColor="@color/transparent"
-                card_view:cardCornerRadius="12dp"
-                card_view:cardMaxElevation="2dp"
-                card_view:cardUseCompatPadding="true"
-                card_view:contentPadding="0dp">
+                android:background="@drawable/bg_button_secondary">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -441,7 +437,7 @@
 
                 </LinearLayout>
 
-            </androidx.cardview.widget.CardView>
+            </FrameLayout>
 
         </LinearLayout>
 
