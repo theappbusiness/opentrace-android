@@ -141,4 +141,11 @@
     <string name="txt_stay_home_make_sure_you_feel_better">Stay home. Make sure you feel better.</string>
     <string name="txt_don_t_go_shopping_or_have_visitors">Don\'t go shopping or have visitors</string>
     <string name="txt_ask_others_to_go_shopping_for_you_or_deliver_at_home_ask_if_someone_else_can_walk_the_dog">Ask others to go shopping for you or deliver at home. Ask if someone else can walk the dog.</string>
+    <string name="txt_here_are_some_tips">You\'re experiencing potential symptoms of the Virus. Here are some tips:</string>
+    <string name="txt_what_do_my_housemates_do">What do my housemates do?</string>
+    <string name="txt_for_household_members_without_symptoms_the_same_rules_apply_for_everyone_in_the_netherlands">For household members without symptoms the same rules apply for everyone in the Netherlands.</string>
+    <string name="txt_if_you_haven_t_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If you haven\'t had any symptoms for more than 24 hours, you can go back outside.</string>
+    <string name="txt_when_do_i_call_my_gp">When do I call my GP?</string>
+    <string name="txt_there_is_no_need_to_worry_at_this_point">There is no need to worry at this point. Keep track of your symptoms daily. You call the doctor if you get sicker or if you need medical help, for example if you get a fever or if you experience unusual shortness of breath.</string>
+    <string name="txt_please_do_not_visit_your_gp">Please do not visit your GP or local hospital, call your GP first.</string>
 </resources>

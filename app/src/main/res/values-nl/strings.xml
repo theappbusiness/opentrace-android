@@ -18,4 +18,14 @@
     <string name="txt_no">Nee</string>
     <string name="txt_what_do_i_do">"Wat moet ik doen? "</string>
     <string name="txt_stay_home_make_sure_you_feel_better">"Blijf thuis. Ziek uit. "</string>
+    <string name="txt_don_t_go_shopping_or_have_visitors">"Doe geen boodschappen en ontvang geen bezoek. "</string>
+    <string name="txt_ask_others_to_go_shopping_for_you_or_deliver_at_home_ask_if_someone_else_can_walk_the_dog">Laat anderen boodschappen doen, of laat ze bezorgen, zorg dat een ander de hond uitlaat.</string>
+    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advies bij eventuele symptomen</string>
+    <string name="txt_here_are_some_tips">Je hebt klachten die eventueel bij het Coronavirus passen. We hebben een aantal tips voor je:</string>
+    <string name="txt_what_do_my_housemates_do">Wat moeten mijn huisgenoten doen?</string>
+    <string name="txt_for_household_members_without_symptoms_the_same_rules_apply_for_everyone_in_the_netherlands">"Voor huisgenoten zonder klachten gelden de regels die voor iedereen in Nederland gelden. "</string>
+    <string name="txt_if_you_haven_t_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">Als je 24 uur lang geen klachten hebt, mag je weer naar buiten.</string>
+    <string name="txt_when_do_i_call_my_gp">Wanneer moet ik de huisarts bellen?</string>
+    <string name="txt_there_is_no_need_to_worry_at_this_point">"Het is op dit moment niet nodig om je zorgen te maken. Houd je symptomen dagelijks bij. Je belt de huisarts als je zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt. "</string>
+    <string name="txt_please_do_not_visit_your_gp">Ga niet naar de huisarts of het ziekenhuis toe, maar bel de huisarts.</string>
 </resources>
