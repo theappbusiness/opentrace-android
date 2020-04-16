@@ -103,4 +103,7 @@
     <string name="hint_mobile_phone_number">Mobile phone number</string>
     <string name="hint_email">Email</string>
     <string name="hint_postcode">Postcode</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_all_fields_mandatory">All fields are mandatory</string>
 </resources>

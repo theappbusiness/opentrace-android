@@ -10,9 +10,11 @@ data class TrackerQuestions(
     val questions: List<Question>
 )
 
-@Parcelize
 data class Question(
     val text: String,
     val yesScore: Int = 0,
-    val noScore: Int = 0
-) : Parcelable
+    val noScore: Int = 0,
+    val answer: Answer = Answer.Unknown
+)
+
+enum class Answer { Yes, No, Unknown }
