@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_monitor">Monitor</string>
+    <string name="title_upload">Besmet</string>
+    <string name="title_help">Help</string>
+    <string name="share_this_app">Deel deze app</string>
+    <string name="ask_friend">Vraag jouw vrienden en familie om te helpen</string>
+</resources>
