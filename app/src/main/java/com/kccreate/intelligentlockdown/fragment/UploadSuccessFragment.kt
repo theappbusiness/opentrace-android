@@ -7,6 +7,7 @@ import androidx.appcompat.widget.AppCompatButton
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
+import com.kccreate.intelligentlockdown.MainActivity
 import com.kccreate.intelligentlockdown.R
 import com.kccreate.intelligentlockdown.extensions.bindView
 
@@ -24,8 +25,8 @@ class UploadSuccessFragment : Fragment(R.layout.fragment_upload_success) {
 
     private fun navigateToUploadScreen() {
         parentFragmentManager.popBackStackImmediate()
-        parentFragmentManager.beginTransaction()
-            .replace(R.id.content, UploadFragment())
-            .commit()
+        val parentActivity = activity as MainActivity
+        parentActivity.goToHome()
     }
+
 }
