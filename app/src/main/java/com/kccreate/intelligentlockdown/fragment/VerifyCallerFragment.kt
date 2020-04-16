@@ -9,22 +9,15 @@ import com.kccreate.intelligentlockdown.Preference
 import kotlinx.android.synthetic.main.fragment_upload_verifycaller.*
 import com.kccreate.intelligentlockdown.R
 
-class VerifyCallerFragment : Fragment() {
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_upload_verifycaller, container, false)
-    }
+class VerifyCallerFragment : Fragment(R.layout.fragment_upload_verifycaller) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        var handShakePin = Preference.getHandShakePin(view.context)
+        val handShakePin = Preference.getHandShakePin(view.context)
         verifyCallerFragmentVerificationCode.text = handShakePin
         verifyCallerFragmentActionButton.setOnClickListener {
-            var myParentFragment: UploadPageFragment = (parentFragment as UploadPageFragment)
+            val myParentFragment: UploadPageFragment = (parentFragment as UploadPageFragment)
             myParentFragment.navigateToUploadPin()
         }
     }
