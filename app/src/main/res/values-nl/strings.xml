@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="title_monitor">Monitor</string>
-    <string name="title_upload">Besmet</string>
-    <string name="title_help">Help</string>
-    <string name="share_this_app">Deel deze app</string>
-    <string name="ask_friend">Vraag jouw vrienden en familie om te helpen</string>
+    <!--Splash-->
+    <string name="splash_message">COVID-19\nLock-down advies</string>
+    <!--Home-->
+    <string name="home_how_to_help">Welkom bij de COVID-19 lock-down advies app</string>
+    <string name="home_help_action">Alleen samen krijgen we het Coronavirus onder controle. </string>
+    <string name="home_check_data_tracking"><u>Zie waar wij toegang tot hebben</u></string>
+    <string name="home_share_message">Alleen samen krijgen we Corona onder controle. Download the COVID-19 app. Voor meer informatie ga naar https://www.rivm.nl</string>
+    <string name="home_share_this_app">Deel deze app</string>
+    <string name="home_ask_friend">Vraag jouw vrienden en familie om te helpen</string>
+    <string name="home_button_track_my_condition">Houd bij hoe ik mij voel</string>
+    <!--Main-->
+    <string name="main_title_monitor">Monitor</string>
+    <string name="main_title_upload">Besmet</string>
+    <string name="main_title_help">Help</string>
+    <!--Upload-->
+    <string name="upload_title">Als je positief op COVID-19 bent getest, laat het ons weten.</string>
+    <string name="upload_subtitle">Wanneer je jouw status met ons deelt, kunnen wij opzoek naar de personen met wie jij recent in contact bent geweest en zo verdere verspreiding voorkomen. Alleen samen krijgen Corona onder controle.</string>
+    <string name="upload_button">Volgende</string>
+    <!--Upload Enter pin-->
+    <string name="enter_pin_title">Voer de code in</string>
+    <string name="enter_pin_subtitle">Door het delen van deze code ga je akkoord om jouw Bluetooth Proximity van de laatste 21 dagen met ons te delen. Wij delen geen locatie of persoonlijke identificeerbare informatie.</string>
+    <string name="enter_pin_button">Deel de code</string>
+    <string name="enter_pin_error_invalid_pin">Ongeldige code</string>
+    <string name="enter_pin_error_message">Er ging iets mis. Probeer het nogmaals.</string>
+    <string name="enter_pin_error_button">Probeer opnieuw</string>
+    <string name="enter_pin_loading_message">Wij uploaden jouw gegevens om het Bron-en contact onderzoek te starten.</string>
+    <!--Upload Success-->
+    <string name="upload_success_title">Bedankt voor het delen</string>
+    <string name="upload_success_subtitle">Wij zullen het bron- en contact onderzoek starten en de juiste personen op de hoogste stellen. Alleen samen krijgen we Corona onder controle.</string>
+    <string name="upload_success_button">OK</string>
+
     <string name="txt_how_do_you_feel_today">Hoe voel je je vandaag?</string>
     <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Houd dagelijks bij hoe je je voelt. Door dit bij te houden kunnen wij je beter helpen.</string>
     <string name="btn_im_feeling_good">Ik voel mij normaal</string>

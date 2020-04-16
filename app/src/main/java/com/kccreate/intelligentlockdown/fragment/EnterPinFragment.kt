@@ -52,11 +52,12 @@ class EnterPinFragment : Fragment(R.layout.fragment_upload_enterpin) {
     private val enterPinErrorMessage by bindView<TextView>(R.id.enter_pin_error_message)
     private val enterPinButton by bindView<Button>(R.id.enter_pin_button)
     private val loadingContainer by bindView<View>(R.id.enter_pin_loading_container)
+    private val errorContainer by bindView<View>(R.id.enter_pin_error_container)
+    private val errorButton by bindView<View>(R.id.enter_pin_error_button)
 
     private var TAG = "EnterPinFragment"
 
     private var disposeObj: Disposable? = null
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -81,6 +82,10 @@ class EnterPinFragment : Fragment(R.layout.fragment_upload_enterpin) {
             val pin =
                 "${firstPin.text}${secondPin.text}${thirdPin.text}${fourthPin.text}${fifthPin.text}${sixthPin.text}"
             uploadPin(pin)
+        }
+
+        errorButton.setOnClickListener {
+            errorContainer.isVisible = false
         }
 
     }
@@ -150,7 +155,7 @@ class EnterPinFragment : Fragment(R.layout.fragment_upload_enterpin) {
                         task.addOnFailureListener {
                             CentralLog.d(TAG, "failed to upload")
                             loadingContainer.isVisible = false
-                            enterPinErrorMessage.isVisible = true
+                            errorContainer.isVisible = true
                         }.addOnSuccessListener {
                             CentralLog.d(TAG, "uploaded successfully")
                             navigateToUploadSuccessScreen()
@@ -158,7 +163,7 @@ class EnterPinFragment : Fragment(R.layout.fragment_upload_enterpin) {
                     } catch (e: Throwable) {
                         CentralLog.d(TAG, "Failed to upload data: ${e.message}")
                         loadingContainer.isVisible = false
-                        enterPinErrorMessage.isVisible = true
+                        errorContainer.isVisible = true
                     }
                 }.addOnFailureListener {
                     CentralLog.d(TAG, "Invalid code")
