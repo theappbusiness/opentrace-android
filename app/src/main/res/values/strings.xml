@@ -40,8 +40,8 @@
 
     <string name="send_otp">We\'ll text you a One-Time Pin (OTP)</string>
 
-    <string name="title_home">Home</string>
-    <string name="title_upload">Upload</string>
+    <string name="title_home">Monitor</string>
+    <string name="title_upload">Infected</string>
     <string name="title_help">Help</string>
 
     <string name="how_to_help">How you can help stop the spread of COVID-19</string>
