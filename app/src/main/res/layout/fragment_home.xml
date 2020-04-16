@@ -40,11 +40,12 @@
                     <androidx.appcompat.widget.AppCompatImageView
                         android:id="@+id/animation_view"
                         android:layout_width="match_parent"
-                        android:layout_height="250dp"
-                        android:padding="16dp"
+                        android:layout_height="160dp"
+                        android:paddingStart="70dp"
+                        android:paddingEnd="70dp"
                         app:layout_constraintLeft_toLeftOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/ic_opentrace_blue_transparent" />
+                        app:srcCompat="@drawable/scene_inside_home" />
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:id="@+id/tv_last_update"
@@ -66,13 +67,24 @@
                     style="@style/OnboardingTitle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="24sp"
                     android:text="@string/how_to_help" />
 
                 <androidx.appcompat.widget.AppCompatTextView
                     style="@style/OnboardingDesc"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="14sp"
                     android:text="@string/help_action" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/OnboardingDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="@string/check_data_tracking" />
 
             </LinearLayout>
 
@@ -341,7 +353,6 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:layout_weight="1"
-
                                 android:gravity="left|center_vertical"
                                 android:paddingLeft="16dp"
                                 android:paddingRight="16dp"
@@ -380,6 +391,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
+                android:layout_marginBottom="24dp"
                 card_view:cardBackgroundColor="@color/transparent"
                 card_view:cardCornerRadius="12dp"
                 card_view:cardMaxElevation="2dp"
@@ -400,13 +412,13 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="center_vertical"
                         android:layout_weight="1"
-                        android:drawableLeft="@drawable/ic_share"
+                        android:drawableLeft="@drawable/share"
                         android:drawablePadding="10dp"
                         android:gravity="left|center_vertical"
                         android:paddingLeft="12dp"
                         android:paddingRight="16dp"
                         android:text="@string/share_this_app"
-                        android:textColor="@color/primary_blue_2"
+                        android:textColor="@color/black"
                         android:textSize="16sp"
                         android:textStyle="bold"
                         android:visibility="visible" />

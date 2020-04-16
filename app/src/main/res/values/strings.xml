@@ -40,12 +40,13 @@
 
     <string name="send_otp">We\'ll text you a One-Time Pin (OTP)</string>
 
-    <string name="title_home">Home</string>
-    <string name="title_upload">Upload</string>
+    <string name="title_monitor">Monitor</string>
+    <string name="title_upload">Infected</string>
     <string name="title_help">Help</string>
 
-    <string name="how_to_help">How you can help stop the spread of COVID-19</string>
-    <string name="help_action">Keep app open, and let it run in the background until the end of the outbreak</string>
+    <string name="how_to_help">The Coronavirus COVID-19 Lockdown App</string>
+    <string name="help_action">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
+    <string name="check_data_tracking"><u>Check what we are tracking</u></string>
 
     <string name="app_permission_status">App Permissions Status</string>
     <string name="bluetooth_on">Bluetooth: On</string>
@@ -123,5 +124,9 @@
     <string name="upload_success_subtitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antiumed ut perspi.</string>
     <string name="upload_success_button">OK</string>
 
-
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_all_fields_mandatory">All fields are mandatory</string>
+    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice and tips to keep you safe and sound</string>
+    <string name="txt_thanks_for_your_info">Thanks for your info</string>
 </resources>

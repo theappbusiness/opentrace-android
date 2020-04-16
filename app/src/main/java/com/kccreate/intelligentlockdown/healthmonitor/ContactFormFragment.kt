@@ -24,7 +24,8 @@ class ContactFormFragment : Fragment(R.layout.fragment_contact_form) {
         super.onViewCreated(view, savedInstanceState)
 
         submitButton.setOnClickListener {
-            Toast.makeText(requireContext(), "Thank you", Toast.LENGTH_LONG).show()
+            //TODO: Pass form data
+            (requireActivity() as HealthMonitorActivity).onFormSubmitted()
         }
     }
 }
