@@ -103,4 +103,6 @@
     <string name="hint_mobile_phone_number">Mobile phone number</string>
     <string name="hint_email">Email</string>
     <string name="hint_postcode">Postcode</string>
+    <string name="splash_message">Coronavirus\nLockdown Advice</string>
+
 </resources>

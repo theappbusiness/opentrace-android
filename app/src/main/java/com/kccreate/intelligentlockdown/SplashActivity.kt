@@ -5,7 +5,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.kccreate.intelligentlockdown.onboarding.PreOnboardingActivity
+import com.kccreate.intelligentlockdown.onboarding.OnboardingActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -54,7 +54,7 @@ class SplashActivity : AppCompatActivity() {
 
     private fun goToNextScreen() {
         if (!Preference.isOnBoarded(this)) {
-            startActivity(Intent(this, PreOnboardingActivity::class.java))
+            startActivity(Intent(this, OnboardingActivity::class.java))
         } else {
             startActivity(Intent(this, MainActivity::class.java))
         }
