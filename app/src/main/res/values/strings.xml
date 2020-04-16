@@ -104,5 +104,9 @@
     <string name="hint_email">Email</string>
     <string name="hint_postcode">Postcode</string>
     <string name="splash_message">Coronavirus\nLockdown Advice</string>
-
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_all_fields_mandatory">All fields are mandatory</string>
+    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice and tips to keep you safe and sound</string>
+    <string name="txt_thanks_for_your_info">Thanks for your info</string>
 </resources>

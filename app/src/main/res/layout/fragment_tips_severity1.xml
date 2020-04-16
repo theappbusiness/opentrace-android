@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="54dp"
+            app:srcCompat="@drawable/ic_scene_inside_family"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/txt_advice_and_tips_to_keep_you_safe_and_sound" />
+
+        <TextView
+            style="@style/Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+
+        <TextView
+            style="@style/Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="What do I do?" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16sp"
+                android:src="@drawable/ic_tick"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                style="@style/Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stay home. Make sure you feel better." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16sp"
+                android:src="@drawable/ic_tick"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                style="@style/Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Don't go shopping or have vistors." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16sp"
+                android:src="@drawable/ic_tick"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                style="@style/Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ask others to go shopping for you or deliver at home. Ask if someone else can walk the dog." />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="What do my housemates do?" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16sp"
+                android:src="@drawable/ic_tick"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                style="@style/Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="If your housemates are feeling fine, the standard rules apply. " />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="When can I go back outside?" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16sp"
+                android:src="@drawable/ic_tick"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                style="@style/Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="if you haven't had any symptomps for more than 24 hours, you can go back outside. " />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:text="When do I call a GP?" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16sp"
+                android:src="@drawable/ic_tick"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                style="@style/Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Het is op dit moment niet nodig om je zorgen te maken. Houd je symptomen dagelijks bij. Je belt de huisarts als je zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt. " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16sp"
+                android:src="@drawable/ic_tick"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                style="@style/Answer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ga niet naar de huisarts of het ziekenhuis toe, maar bel de huisarts." />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ok"
+            style="@style/ButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="OK"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </LinearLayout>
+</ScrollView>

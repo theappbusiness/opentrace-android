@@ -4,16 +4,11 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.kccreate.intelligentlockdown.R
 import com.kccreate.intelligentlockdown.extensions.observe
-import com.kccreate.intelligentlockdown.healthmonitor.HealthMonitorViewModel
-import com.kccreate.intelligentlockdown.healthmonitor.HowDoYouFeelFragment
-import com.kccreate.intelligentlockdown.healthmonitor.OkGreatFragment
-import com.kccreate.intelligentlockdown.healthmonitor.QuestionFragment
-import com.kccreate.intelligentlockdown.healthmonitor.model.Question
+import com.kccreate.intelligentlockdown.healthmonitor.SymptomsResult.*
 
 class HealthMonitorActivity : AppCompatActivity() {
 
@@ -28,7 +23,7 @@ class HealthMonitorActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_healthmonitor)
 
-        observe(viewModel.finished, ::finished)
+        observe(viewModel.symptomsResult, ::onSymptomsResult)
 
         replaceFragment(HowDoYouFeelFragment.newInstance())
     }
@@ -38,33 +33,20 @@ class HealthMonitorActivity : AppCompatActivity() {
     }
 
     fun onNotFeelingGoodClicked() {
-//        observe(viewModel.currentQuestion, ::showCurrentQuestion)
-        replaceFragment(ContactFormFragment.newInstance())
+        replaceFragment(SymptomFormFragment.newInstance())
     }
 
-    private fun finished(finished: Boolean) {
-        if (finished) {
-            val score = viewModel.score.value ?: 0
+    fun onFormSubmitted() {
+        replaceFragment(ThankYouFragment.newInstance())
+    }
 
-            val help = when (score) {
-                in 0..10 -> "Lockdown Procedures"
-                in 10..25 -> "Severity 1 tips"
-                in 25..100 -> "Severity 2 tips"
-                else -> "Contact Form"
-            }
-
-            AlertDialog.Builder(this)
-                .setTitle("Self-tracking result")
-                .setMessage("Your score is: $score.\nYour suggested help is: $help")
-                .create()
-                .show()
+    private fun onSymptomsResult(symptomsResult: SymptomsResult) {
+        when (symptomsResult) {
+            LockDown -> replaceFragment(OkGreatFragment.newInstance())
+            Severity1 -> replaceFragment(TipsSeverity1Fragment.newInstance())
+            Severity2 -> replaceFragment(TipsSeverity2Fragment.newInstance())
+            ContactForm -> replaceFragment(ContactFormFragment.newInstance())
         }
-    }
-
-    private fun showCurrentQuestion(question: Question) {
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.container, QuestionFragment.newInstance(question))
-            .commit()
     }
 
     private fun replaceFragment(fragment: Fragment) {

@@ -4,7 +4,7 @@
     "thresholdContact": 200,
     "questions": [
         {
-            "text": "Do you feel like you're having a cold? like XXXXXXXXX",
+            "text": "Do you feel like you’re having a cold?",
             "yesScore": 50,
             "noScore": 0
         },
@@ -24,7 +24,7 @@
             "noScore": 0
         },
         {
-            "text": "Are you experiencing unsual shortness of breath?",
+            "text": "Are you experiencing unusual shortness of breath?",
             "yesScore": 0,
             "noScore": 0
         },
