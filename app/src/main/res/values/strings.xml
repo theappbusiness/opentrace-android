@@ -40,13 +40,14 @@
 
     <string name="send_otp">We\'ll text you a One-Time Pin (OTP)</string>
 
-    <string name="title_home">Home</string>
-    <string name="title_upload">Upload</string>
+    <string name="title_monitor">Monitor</string>
+    <string name="title_upload">Infected</string>
     <string name="title_help">Help</string>
 
-    <string name="how_to_help">How you can help stop the spread of COVID-19</string>
-    <string name="help_action">Keep app open, and let it run in the background until the end of the outbreak</string>
-
+    <string name="how_to_help">The Coronavirus COVID-19 Lockdown App</string>
+    <string name="help_action">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accus antium dolore mque lauda ntium esparanti dollo fiunti est forunti.</string>
+    <string name="check_data_tracking"><u>Check what we are tracking</u></string>
+   
     <string name="app_permission_status">App Permissions Status</string>
     <string name="bluetooth_on">Bluetooth: On</string>
     <string name="location_on">Location Permission: On</string>
