@@ -30,6 +30,33 @@
     <string name="upload_success_title">Bedankt voor het delen</string>
     <string name="upload_success_subtitle">Wij zullen het bron- en contact onderzoek starten en de juiste personen op de hoogste stellen. Alleen samen krijgen we Corona onder controle.</string>
     <string name="upload_success_button">OK</string>
+    <!--Onboarding how it works-->
+    <string name="onboarding_how_it_works_welcome_title">Welkom bij de COVID-19 lock-down advies app</string>
+    <string name="onboarding_how_it_works_welcome_explanation_1">Deze applicatie is gemaakt om op een slimme manier verdere uitbraak van het Coronavirus te voorkomen en je door de volgende fase van onze intelligente lockdown te begeleiden</string>
+    <!--Onboarding setup-->
+    <string name="onboarding_setup_agree_title">Jouw gegevens zijn privé. Wij weten niet wie je bent.</string>
+    <string name="onboarding_setup_agree_desc">Wij hebben jou nodig om de verspreiding van het Coronavirus te voorkomen.</string>
+    <string name="onboarding_setup_agree_tickbox_1">Je gaat akkoord met onze Algemene Voorwaarden en Privacy Beleid</string>
+    <string name="onboarding_setup_agree_tickbox_2">Je gaat akkoord met het ontvangen van Push-Notificaties. Zo kunnen we je een bericht sturen als je eventueel in contact bent geweest met iemand die het Coronavirus heeft opgelopen.</string>
+    <string name="onboarding_setup_agree_tickbox_3">Je gaat akkoord met dat wij gebruik maken van jouw Bluetooth data zonder dat we jouw locatie kunnen zien.</string>
+    <string name="onboarding_setup_agree_button">Volgende</string>
+    <!--Help-->
+    <string name="help_title">Hoe kunnen we je helpen?</string>
+    <string name="help_section_1">Over het virus</string>
+    <string name="help_section_1_question_1">Wat kan ik doen om verspreiding van het nieuwe coronavirus te voorkomen?</string>
+    <string name="help_section_1_question_1_answer">Blijf zo veel mogelijk thuis,zorg voor goede hygiënemaatregelen en ga alleen naar buiten als dat nodig is. Houd 1,5 meter afstand (2 armlengtes) van anderen. Door afstand te houden is de kans kleiner dat mensen elkaar besmetten.</string>
+    <string name="help_section_1_question_2">Ik heb andere vragen over het Virus</string>
+    <string name="help_section_1_question_2_answer">Kijk op de website van het RIVM of neem dan contact op via 0800-1351 (dagelijks bereikbaar van 8:00 - 20:00 uur).</string>
+    <string name="help_section_2">Over deze app</string>
+    <string name="help_section_2_question_1">Hoe helpt de app verspreiding te voorkomen?</string>
+    <string name="help_section_2_question_1_answer">Deze applicatie helpt bij het het bron- en contacts onderzoek voor COVID-19 en het op afstand begeleiden van mensen met klachten. Zo kunnen wij sneller in kaart brengen waar intensievere zorg nodig is.</string>
+    <string name="help_section_2_question_2">Waarom moet ik bijhouden hoe ik mij voel?</string>
+    <string name="help_section_2_question_2_answer">Wij krijgen een beter beeld over hoe jij je voelt en kunnen jou zo beter op afstand begeleiden . We kunnen jou dan van de juiste informatie voorzien en meteen intensievere zorg verlenen mocht dit nodig zijn.</string>
+    <string name="help_section_2_question_3">Moet ik mij zorgen maken over mijn Pivacy?</string>
+    <string name="help_section_2_question_3_answer">Nee, jouw data blijft privé. Wij weten niet wie jij bent. Het gebruik van Bluetooth helpt ons om in kaart te brengen met wie je in contact bent geweest. Deze data wordt alleen gebruikt, mocht je positief getest worden op COVID-19. Maar ook dan, kunnen we jou niet identificeren.</string>
+    <string name="help_section_3">De aanpak in Nederland</string>
+    <string name="help_section_3_question_1">Wat houdt een Inteligente Lockdown in?</string>
+    <string name="help_section_3_question_2">Wat zijn de laatste ontwikkelingen?</string>
 
     <string name="txt_how_do_you_feel_today">Hoe voel je je vandaag?</string>
     <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Houd dagelijks bij hoe je je voelt. Door dit bij te houden kunnen wij je beter helpen.</string>
@@ -64,7 +91,6 @@
     <string name="hint_mobile_phone_number">"Telefoonnummer "</string>
     <string name="hint_last_name">Achternaam</string>
     <string name="hint_first_name">Voornaam</string>
-    <string name="btn_submit">Submit</string>
     <string name="txt_all_fields_mandatory">All fields are mandatory</string>
     <string name="txt_please_fill_in_your_details">"Vul je gegevens in. We willen graag contact met je opnemen om te horen hoe het met je gaat en om je verder te helpen. "</string>
     <string name="txt_we_would_like_to_help">We willen je graag helpen</string>

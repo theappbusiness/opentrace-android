@@ -29,6 +29,33 @@
     <string name="upload_success_title">Thank you for sharing</string>
     <string name="upload_success_subtitle">We\'ll inform the individuals you\'ve recently been in contact with to avoid the Coronavirus from spreading.</string>
     <string name="upload_success_button">OK</string>
+    <!--Onboarding how it works-->
+    <string name="onboarding_how_it_works_welcome_title">Welcome to the Coronavirus COVID-19 Lockdown App</string>
+    <string name="onboarding_how_it_works_welcome_explanation_1">A tool to reduce the spread of infectious diseases like COVID-19 through social distancing.</string>
+    <!--Onboarding setup-->
+    <string name="onboarding_setup_agree_title">Your data is private and we only use non personal information</string>
+    <string name="onboarding_setup_agree_desc">We need you to reduce the spread of the Coronavirus. Please accept and agree to the following.</string>
+    <string name="onboarding_setup_agree_tickbox_1">You agree to our Terms &amp; Conditions and Privacy Policy.</string>
+    <string name="onboarding_setup_agree_tickbox_2">You agree to receive push notifications. We might use this to inform you when you\'ve been in contact with someone who is infected.</string>
+    <string name="onboarding_setup_agree_tickbox_3">You agree to track your Bluetooth data without tacking your location. </string>
+    <string name="onboarding_setup_agree_button">Next</string>
+    <!--Help-->
+    <string name="help_title">How can we help you?</string>
+    <string name="help_section_1">About the virus</string>
+    <string name="help_section_1_question_1">What can I do to avoid further spread of the virus?</string>
+    <string name="help_section_1_question_1_answer">Stay at home as much as possible, ensure good hygiene practice and only go outside if it is really necessary. Keep 1.5 meters distance (2 arm lengths) from others, keeping a distance of 1.5 metres reduces the chance of people infecting each other.</string>
+    <string name="help_section_1_question_2">I have other questions about the virus</string>
+    <string name="help_section_1_question_2_answer">Please check the official website or call 0800- 1351</string>
+    <string name="help_section_2">About this application</string>
+    <string name="help_section_2_question_1">How does this app help the spread of the Virus?</string>
+    <string name="help_section_2_question_1_answer">The application supports source and contract tracing for COVID-19 and provices remote support where needed. We\'re able to monitor the outbreak more closely and provide intensive care where needed.</string>
+    <string name="help_section_2_question_2">Why do I have to selfmonitor?</string>
+    <string name="help_section_2_question_2_answer">We get a better picture of how you feel and can better guide you remotely. We are able to provide you with the correct information and provide more intensive care if needed.</string>
+    <string name="help_section_2_question_3">Do I have to be worried about my Privacy?</string>
+    <string name="help_section_2_question_3_answer">No, your data is yours. We don\'t know who you are. Bluetooth helps us to identify who you have been in contact with. This data is only used if you are tested positive for COVID-19. Even then, we will not be able to identify you.</string>
+    <string name="help_section_3">Our response to the Virus</string>
+    <string name="help_section_3_question_1">What is an Intelligent Lockdown?</string>
+    <string name="help_section_3_question_2">What are the latest stats?</string>
 
     <string name="txt_how_do_you_feel_today">How do you feel today?</string>
     <string name="btn_im_feeling_good">I\'m feeling good</string>
@@ -69,14 +96,4 @@
     <string name="txt_we_would_like_to_help">We would like to help you</string>
     <string name="txt_thanks_for_your_info">Thanks for sharing</string>
     <string name="txt_if_you_need_medical_help_please_call_your_gp">We\'ll get in touch with you ASAP. If in the meantime you need medical help, please call your GP.</string>
-    <string name="splash_message">Coronavirus\nLockdown Advice</string>
-    <string name="txt_yes">Yes</string>
-    <string name="txt_no">No</string>
-    <string name="txt_all_fields_mandatory">All fields are mandatory</string>
-    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice and tips to keep you safe and sound</string>
-    <string name="txt_thanks_for_your_info">Thanks for your info</string>
-    <string name="welcome_title">Welcome to the Coronavirus COVID-19 Lockdown App</string>
-    <string name="welcome_explanation_1">A tool to reduce the spread of infectious diseases like COVID-19 through social distancing.</string>
-    <string name="agree_title">Your data is private and we only use non personal information</string>
-    <string name="agree_desc">In order for use to reduce the spread of Coronavirus please accept and agree to the following.</string>
 </resources>
