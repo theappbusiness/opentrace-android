@@ -11,6 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.iid.FirebaseInstanceId
 import com.kccreate.intelligentlockdown.fragment.ForUseByOTCFragment
 import com.kccreate.intelligentlockdown.fragment.HomeFragment
+import com.kccreate.intelligentlockdown.fragment.UploadFragment
 import com.kccreate.intelligentlockdown.logging.CentralLog
 import kotlinx.android.synthetic.main.activity_main_new.*
 
@@ -47,8 +48,8 @@ class MainActivity : AppCompatActivity() {
                     R.id.navigation_upload -> {
                         if (selected != R.id.navigation_upload) {
                             openFragment(
-                                LAYOUT_MAIN_ID, ForUseByOTCFragment(),
-                                ForUseByOTCFragment::class.java.name, 0
+                                LAYOUT_MAIN_ID, UploadFragment(),
+                                UploadFragment::class.java.name, 0
                             )
                         }
 

@@ -1,6 +1,7 @@
 package com.kccreate.intelligentlockdown.logging
 
 import android.os.Environment
+import com.kccreate.intelligentlockdown.BuildConfig
 import java.io.BufferedWriter
 import java.io.File
 import java.io.FileWriter
@@ -10,7 +11,7 @@ import java.util.*
 
 object SDLog {
 
-    private const val APP_NAME = "OpenTrace"
+    private const val APP_NAME = "COVID-19"
     private const val FOLDER = "SDLogging"
     private val dateFormat = SimpleDateFormat("yyyyMMdd")
     private val timestampFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS")
