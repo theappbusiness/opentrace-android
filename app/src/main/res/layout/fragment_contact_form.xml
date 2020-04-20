@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="@string/txt_we_would_like_to_help" />
+            android:text="@string/health_monitor_contact_form_title" />
 
         <TextView
             android:id="@+id/message1"
@@ -35,14 +35,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/txt_please_fill_in_your_details" />
+            android:text="@string/health_monitor_contact_form_subtitle" />
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="35dp"
-            android:hint="@string/hint_first_name">
+            android:hint="@string/health_monitor_contact_form_hint_first_name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/first_name"
@@ -56,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:hint="@string/hint_last_name">
+            android:hint="@string/health_monitor_contact_form_hint_last_name">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/last_name"
@@ -70,7 +70,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:hint="@string/hint_mobile_phone_number">
+            android:hint="@string/health_monitor_contact_form_hint_mobile_phone_number">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/phone_number"
@@ -84,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:hint="@string/hint_email">
+            android:hint="@string/health_monitor_contact_form_hint_email">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/email"
@@ -98,7 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="18dp"
-            android:hint="@string/hint_postcode">
+            android:hint="@string/health_monitor_contact_form_hint_postcode">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/postcode"
@@ -113,7 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/txt_thanks_for_sharing_your_details_with_us" />
+            android:text="@string/health_monitor_contact_form_additional_information" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/submit"
@@ -121,7 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="@string/btn_submit"
+            android:text="@string/health_monitor_contact_form_button_submit"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

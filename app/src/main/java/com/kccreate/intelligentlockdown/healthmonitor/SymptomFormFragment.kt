@@ -42,7 +42,7 @@ class SymptomFormFragment : Fragment(R.layout.fragment_symptom_form) {
 
             if (answers.size != questions.size) {
                 AlertDialog.Builder(requireContext())
-                    .setMessage(getString(R.string.txt_all_fields_mandatory))
+                    .setMessage(getString(R.string.health_monitor_symptom_form_message_all_fields_mandatory))
                     .setPositiveButton(R.string.ok) { dialog, _ -> dialog.dismiss() }
                     .create().show()
             } else {

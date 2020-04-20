@@ -57,45 +57,54 @@
     <string name="help_section_3">De aanpak in Nederland</string>
     <string name="help_section_3_question_1">Wat houdt een Inteligente Lockdown in?</string>
     <string name="help_section_3_question_2">Wat zijn de laatste ontwikkelingen?</string>
-
-    <string name="txt_how_do_you_feel_today">Hoe voel je je vandaag?</string>
-    <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Houd dagelijks bij hoe je je voelt. Door dit bij te houden kunnen wij je beter helpen.</string>
-    <string name="btn_im_feeling_good">Ik voel mij normaal</string>
-    <string name="btn_not_feeling_good">"Ik voel mij niet goed "</string>
-    <string name="txt_ok_great">"Fijn om te horen! "</string>
-    <string name="txt_stay_at_home_as_much_as_possible">"Blijf zo veel mogelijk thuis en ga alleen naar buiten als dit echt nodig is om verdere verspreiding van het Corona virus te voorkomen. Kijk voor meer informatie op: https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden "</string>
-    <string name="btn_done">Klaar</string>
-    <string name="txt_find_out_more_about_your_condition">Waar heb je last van?</string>
-    <string name="txt_please_fill_in_the_form">"Vul de vragen in. Wij kunnen zo een beter beeld krijgen hoe je je voelt. "</string>
-    <string name="txt_yes">Ja</string>
-    <string name="txt_no">Nee</string>
-    <string name="txt_what_do_i_do">"Wat moet ik doen? "</string>
-    <string name="txt_stay_home_make_sure_you_feel_better">"Blijf thuis. Ziek uit. "</string>
-    <string name="txt_don_t_go_shopping_or_have_visitors">"Doe geen boodschappen en ontvang geen bezoek. "</string>
-    <string name="txt_ask_others_to_go_shopping_for_you_or_deliver_at_home_ask_if_someone_else_can_walk_the_dog">Laat anderen boodschappen doen, of laat ze bezorgen, zorg dat een ander de hond uitlaat.</string>
-    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advies bij eventuele symptomen</string>
-    <string name="txt_here_are_some_tips">Je hebt klachten die eventueel bij het Coronavirus passen. We hebben een aantal tips voor je:</string>
-    <string name="txt_what_do_my_housemates_do">Wat moeten mijn huisgenoten doen?</string>
-    <string name="txt_for_household_members_without_symptoms_the_same_rules_apply_for_everyone_in_the_netherlands">"Voor huisgenoten zonder klachten gelden de regels die voor iedereen in Nederland gelden. "</string>
-    <string name="txt_if_you_haven_t_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">Als je 24 uur lang geen klachten hebt, mag je weer naar buiten.</string>
-    <string name="txt_when_do_i_call_my_gp">Wanneer moet ik de huisarts bellen?</string>
-    <string name="txt_there_is_no_need_to_worry_at_this_point">"Het is op dit moment niet nodig om je zorgen te maken. Houd je symptomen dagelijks bij. Je belt de huisarts als je zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt. "</string>
-    <string name="txt_please_do_not_visit_your_gp">Ga niet naar de huisarts of het ziekenhuis toe, maar bel de huisarts.</string>
-    <string name="txt_advice_when_you_re_mild_experiencing_symptoms">Advies bij milde symptomen</string>
-    <string name="txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips">Je hebt klachten die bij het Coronavirus passen. We hebben een aantal tips voor je:</string>
-    <string name="txt_if_you_have_housemates_they_can_also_not_go_outside">Heb je huisgenoten, dan mogen zij ook niet naar buiten. Als uitzondering hierop mogen alleen huisgenoten die geen klachten hebben even boodschappen doen.</string>
-    <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">Als iedereen 24 uur geen klachten heeft, mag je weer naar buiten</string>
-    <string name="txt_thanks_for_sharing_your_details_with_us">"Bedankt voor het delen. We nemen zo snel mogelijk telefonisch contact op. "</string>
-    <string name="hint_postcode">Postcode</string>
-    <string name="hint_email">Email</string>
-    <string name="hint_mobile_phone_number">"Telefoonnummer "</string>
-    <string name="hint_last_name">Achternaam</string>
-    <string name="hint_first_name">Voornaam</string>
-    <string name="txt_all_fields_mandatory">All fields are mandatory</string>
-    <string name="txt_please_fill_in_your_details">"Vul je gegevens in. We willen graag contact met je opnemen om te horen hoe het met je gaat en om je verder te helpen. "</string>
-    <string name="txt_we_would_like_to_help">We willen je graag helpen</string>
-    <string name="txt_thanks_for_your_info">Bedankt voor het delen.</string>
-    <string name="txt_if_you_need_medical_help_please_call_your_gp">Wij nemen zo snel mogelijk contact met op. Als je ondertussen zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt bel je de huisarts.</string>
-    <string name="btn_submit">Verzend</string>
-    <string name="submit">Verzend</string>
+    <!-- Health Monitor how do you feel -->
+    <string name="health_monitor_how_do_you_feel_title">Hoe voel je je vandaag?</string>
+    <string name="health_monitor_how_do_you_feel_subtitle">Houd dagelijks bij hoe je je voelt. Door dit bij te houden kunnen wij je beter helpen.</string>
+    <string name="health_monitor_how_do_you_feel_button_good">Ik voel mij normaal</string>
+    <string name="health_monitor_how_do_you_feel_button_bad">"Ik voel mij niet goed "</string>
+    <!-- Health Monitor ok great -->
+    <string name="health_monitor_ok_great_title">"Fijn om te horen! "</string>
+    <string name="health_monitor_ok_great_subtitle">"Blijf zo veel mogelijk thuis en ga alleen naar buiten als dit echt nodig is om verdere verspreiding van het Corona virus te voorkomen. Kijk voor meer informatie op: https://www.rivm.nl/coronavirus-covid-19/vragen-antwoorden "</string>
+    <string name="health_monitor_ok_great_button">Klaar</string>
+    <!-- Health Monitor symptom form -->
+    <string name="health_monitor_symptom_form_title">Waar heb je last van?</string>
+    <string name="health_monitor_symptom_form_subtitle">"Vul de vragen in. Wij kunnen zo een beter beeld krijgen hoe je je voelt. "</string>
+    <string name="health_monitor_symptom_form_option_yes">Ja</string>
+    <string name="health_monitor_symptom_form_option_no">Nee</string>
+    <string name="health_monitor_symptom_form_button">Verzend</string>
+    <string name="health_monitor_symptom_form_message_all_fields_mandatory">All fields are mandatory</string>
+    <!-- Health Monitor contact form -->
+    <string name="health_monitor_contact_form_title">We willen je graag helpen</string>
+    <string name="health_monitor_contact_form_subtitle">"Vul je gegevens in. We willen graag contact met je opnemen om te horen hoe het met je gaat en om je verder te helpen. "</string>
+    <string name="health_monitor_contact_form_hint_first_name">Voornaam</string>
+    <string name="health_monitor_contact_form_hint_last_name">Achternaam</string>
+    <string name="health_monitor_contact_form_hint_mobile_phone_number">"Telefoonnummer "</string>
+    <string name="health_monitor_contact_form_hint_email">Email</string>
+    <string name="health_monitor_contact_form_hint_postcode">Postcode</string>
+    <string name="health_monitor_contact_form_button_submit">Verzend</string>
+    <string name="health_monitor_contact_form_additional_information">"Bedankt voor het delen. We nemen zo snel mogelijk telefonisch contact op. "</string>
+    <!-- Health Monitor thanks for sharing -->
+    <string name="health_monitor_thanks_for_sharing_title">Bedankt voor het delen.</string>
+    <string name="health_monitor_thanks_for_sharing_subtitle">Wij nemen zo snel mogelijk contact met op. Als je ondertussen zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt bel je de huisarts.</string>
+    <string name="health_monitor_thanks_for_sharing_button">OK</string>
+    <!-- Health Monitor tips -->
+    <string name="health_monitor_tips_button_ok">OK</string>
+    <string name="health_monitor_tips_question_1">Wat moet ik doen?</string>
+    <string name="health_monitor_tips_question_1_answer_1">Blijf thuis. Ziek uit.</string>
+    <string name="health_monitor_tips_question_1_answer_2">Doe geen boodschappen en ontvang geen bezoek.</string>
+    <string name="health_monitor_tips_question_1_answer_3">Laat anderen boodschappen doen, of laat ze bezorgen, zorg dat een ander de hond uitlaat.</string>
+    <string name="health_monitor_tips_question_2">Wat moeten mijn huisgenoten doen?</string>
+    <string name="health_monitor_tips_question_3">Wanneer moet ik de huisarts bellen?</string>
+    <string name="health_monitor_tips_question_3_answer_1">Het is op dit moment niet nodig om je zorgen te maken. Houd je symptomen dagelijks bij. Je belt de huisarts als je zieker wordt, of je medische hulp nodig heeft, bijvoorbeeld als je hoge koorts krijgt of moeilijk ademt.</string>
+    <string name="health_monitor_tips_question_3_answer_2">Ga niet naar de huisarts of het ziekenhuis toe, maar bel de huisarts.</string>
+    <string name="health_monitor_tips_question_2_answer_1">Heb je huisgenoten, dan mogen zij ook niet naar buiten. Als uitzondering hierop mogen alleen huisgenoten die geen klachten hebben even boodschappen doen.</string>
+    <string name="health_monitor_tips_question_2_answer_2">Als iedereen 24 uur geen klachten heeft, mag je weer naar buiten</string>
+    <!-- Health Monitor tips severity 1 -->
+    <string name="health_monitor_tips_severity_1_title">Advies bij eventuele symptomen</string>
+    <string name="health_monitor_tips_severity_1_subtitle">Je hebt klachten die eventueel bij het Coronavirus passen. We hebben een aantal tips voor je:</string>
+    <string name="health_monitor_tips_severity_1_question_2_answer_1">Voor huisgenoten zonder klachten gelden de regels die voor iedereen in Nederland gelden.</string>
+    <string name="health_monitor_tips_severity_1_question_2_answer_2">Als je 24 uur lang geen klachten hebt, mag je weer naar buiten.</string>
+    <!-- Health Monitor tips severity 2 -->
+    <string name="health_monitor_tips_severity_2_title">Advies bij milde symptomen</string>
+    <string name="health_monitor_tips_severity_2_subtitle">Je hebt klachten die bij het Coronavirus passen. We hebben een aantal tips voor je:</string>
 </resources>
