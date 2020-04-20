@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/black"
-            android:text="@string/txt_yes" />
+            android:text="@string/health_monitor_symptom_form_option_yes" />
 
         <androidx.appcompat.widget.AppCompatRadioButton
             android:id="@+id/no"
@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/black"
-            android:text="@string/txt_no" />
+            android:text="@string/health_monitor_symptom_form_option_no" />
 
     </RadioGroup>
 

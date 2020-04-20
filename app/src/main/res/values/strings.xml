@@ -29,44 +29,81 @@
     <string name="upload_success_title">Thank you for sharing</string>
     <string name="upload_success_subtitle">We\'ll inform the individuals you\'ve recently been in contact with to avoid the Coronavirus from spreading.</string>
     <string name="upload_success_button">OK</string>
-
-    <string name="txt_how_do_you_feel_today">How do you feel today?</string>
-    <string name="btn_im_feeling_good">I\'m feeling good</string>
-    <string name="btn_not_feeling_good">I\'m not feeling quite right</string>
-    <string name="txt_ok_great">Okay, great!</string>
-    <string name="txt_find_out_more_about_your_condition">Let\'s find out more how you\'re feeling</string>
-    <string name="txt_yes">Yes</string>
-    <string name="txt_no">No</string>
-    <string name="txt_all_fields_mandatory">All fields are mandatory</string>
-    <string name="txt_advice_and_tips_to_keep_you_safe_and_sound">Advice to keep you safe and sound</string>
-    <string name="txt_take_a_minute_each_day_and_track_how_you_re_feeling">Take a minute each day and track how you\'re feeling.</string>
-    <string name="txt_stay_at_home_as_much_as_possible">Stay at home as much as possible and only go outside if it is really necessary to avoid further spread of the virus. For more information please visit: https://www.rivm.nl/en</string>
-    <string name="btn_done">Done</string>
-    <string name="txt_please_fill_in_the_form">Please fill in the form. We\'ll be able to get a better understanding of your symptoms</string>
-    <string name="txt_what_do_i_do">What do I do?</string>
-    <string name="txt_stay_home_make_sure_you_feel_better">Stay home. Make sure you feel better.</string>
-    <string name="txt_don_t_go_shopping_or_have_visitors">Don\'t go shopping or have visitors</string>
-    <string name="txt_ask_others_to_go_shopping_for_you_or_deliver_at_home_ask_if_someone_else_can_walk_the_dog">Ask others to go shopping for you or deliver at home. Ask if someone else can walk the dog.</string>
-    <string name="txt_here_are_some_tips">You\'re experiencing potential symptoms of the Virus. Here are some tips:</string>
-    <string name="txt_what_do_my_housemates_do">What do my housemates do?</string>
-    <string name="txt_for_household_members_without_symptoms_the_same_rules_apply_for_everyone_in_the_netherlands">For household members without symptoms the same rules apply for everyone in the Netherlands.</string>
-    <string name="txt_if_you_haven_t_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If you haven\'t had any symptoms for more than 24 hours, you can go back outside.</string>
-    <string name="txt_when_do_i_call_my_gp">When do I call my GP?</string>
-    <string name="txt_there_is_no_need_to_worry_at_this_point">There is no need to worry at this point. Keep track of your symptoms daily. You call the doctor if you get sicker or if you need medical help, for example if you get a fever or if you experience unusual shortness of breath.</string>
-    <string name="txt_please_do_not_visit_your_gp">Please do not visit your GP or local hospital, call your GP first.</string>
-    <string name="txt_advice_when_you_re_mild_experiencing_symptoms">Advice when you\'re mild experiencing symptoms</string>
-    <string name="txt_you_re_experiencing_symptoms_of_the_virus_here_are_some_tips">You\'re experiencing symptoms of the Virus. Here are some tips:</string>
-    <string name="txt_if_you_have_housemates_they_can_also_not_go_outside">If you have housemates, they can also not go outside.</string>
-    <string name="txt_if_no_one_had_any_symptoms_for_more_than_24_hours_you_can_go_back_outside">If no one had any symptoms for more than 24 hours, you can go back outside.</string>
-    <string name="txt_thanks_for_sharing_your_details_with_us">Thanks for sharing your details with us. We\'ll get back to you ASAP.</string>
-    <string name="hint_first_name">First Name</string>
-    <string name="hint_last_name">Last Name</string>
-    <string name="hint_mobile_phone_number">Mobile phone number</string>
-    <string name="hint_email">Email</string>
-    <string name="hint_postcode">Postcode</string>
-    <string name="btn_submit">Submit</string>
-    <string name="txt_please_fill_in_your_details">Please fill in your details. We would like to talk to you to get a better understanding of your symptomps and see how we can help.</string>
-    <string name="txt_we_would_like_to_help">We would like to help you</string>
-    <string name="txt_thanks_for_your_info">Thanks for sharing</string>
-    <string name="txt_if_you_need_medical_help_please_call_your_gp">We\'ll get in touch with you ASAP. If in the meantime you need medical help, please call your GP.</string>
+    <!--Onboarding how it works-->
+    <string name="onboarding_how_it_works_welcome_title">Welcome to the Coronavirus COVID-19 Lockdown App</string>
+    <string name="onboarding_how_it_works_welcome_explanation_1">A tool to reduce the spread of infectious diseases like COVID-19 through social distancing.</string>
+    <!--Onboarding setup-->
+    <string name="onboarding_setup_agree_title">Your data is private and we only use non personal information</string>
+    <string name="onboarding_setup_agree_desc">We need you to reduce the spread of the Coronavirus. Please accept and agree to the following.</string>
+    <string name="onboarding_setup_agree_tickbox_1">You agree to our Terms &amp; Conditions and Privacy Policy.</string>
+    <string name="onboarding_setup_agree_tickbox_2">You agree to receive push notifications. We might use this to inform you when you\'ve been in contact with someone who is infected.</string>
+    <string name="onboarding_setup_agree_tickbox_3">You agree to track your Bluetooth data without tacking your location. </string>
+    <string name="onboarding_setup_agree_button">Next</string>
+    <!--Help-->
+    <string name="help_title">How can we help you?</string>
+    <string name="help_section_1">About the virus</string>
+    <string name="help_section_1_question_1">What can I do to avoid further spread of the virus?</string>
+    <string name="help_section_1_question_1_answer">Stay at home as much as possible, ensure good hygiene practice and only go outside if it is really necessary. Keep 1.5 meters distance (2 arm lengths) from others, keeping a distance of 1.5 metres reduces the chance of people infecting each other.</string>
+    <string name="help_section_1_question_2">I have other questions about the virus</string>
+    <string name="help_section_1_question_2_answer">Please check the official website or call 0800- 1351</string>
+    <string name="help_section_2">About this application</string>
+    <string name="help_section_2_question_1">How does this app help the spread of the Virus?</string>
+    <string name="help_section_2_question_1_answer">The application supports source and contract tracing for COVID-19 and provices remote support where needed. We\'re able to monitor the outbreak more closely and provide intensive care where needed.</string>
+    <string name="help_section_2_question_2">Why do I have to selfmonitor?</string>
+    <string name="help_section_2_question_2_answer">We get a better picture of how you feel and can better guide you remotely. We are able to provide you with the correct information and provide more intensive care if needed.</string>
+    <string name="help_section_2_question_3">Do I have to be worried about my Privacy?</string>
+    <string name="help_section_2_question_3_answer">No, your data is yours. We don\'t know who you are. Bluetooth helps us to identify who you have been in contact with. This data is only used if you are tested positive for COVID-19. Even then, we will not be able to identify you.</string>
+    <string name="help_section_3">Our response to the Virus</string>
+    <string name="help_section_3_question_1">What is an Intelligent Lockdown?</string>
+    <string name="help_section_3_question_2">What are the latest stats?</string>
+    <!-- Health Monitor how do you feel -->
+    <string name="health_monitor_how_do_you_feel_title">How do you feel today?</string>
+    <string name="health_monitor_how_do_you_feel_subtitle">Take a minute each day and track how you\'re feeling.</string>
+    <string name="health_monitor_how_do_you_feel_button_good">I\'m feeling good</string>
+    <string name="health_monitor_how_do_you_feel_button_bad">I\'m not feeling quite right</string>
+    <!-- Health Monitor ok great -->
+    <string name="health_monitor_ok_great_title">Okay, great!</string>
+    <string name="health_monitor_ok_great_subtitle">Stay at home as much as possible and only go outside if it is really necessary to avoid further spread of the virus. For more information please visit: https://www.rivm.nl/en</string>
+    <string name="health_monitor_ok_great_button">Done</string>
+    <!-- Health Monitor symptom form -->
+    <string name="health_monitor_symptom_form_title">Let\'s find out more how you\'re feeling</string>
+    <string name="health_monitor_symptom_form_subtitle">Please fill in the form. We\'ll be able to get a better understanding of your symptoms</string>
+    <string name="health_monitor_symptom_form_option_yes">Yes</string>
+    <string name="health_monitor_symptom_form_option_no">No</string>
+    <string name="health_monitor_symptom_form_button">Submit</string>
+    <string name="health_monitor_symptom_form_message_all_fields_mandatory">All fields are mandatory</string>
+    <!-- Health Monitor contact form -->
+    <string name="health_monitor_contact_form_title">We would like to help you</string>
+    <string name="health_monitor_contact_form_subtitle">Please fill in your details. We would like to talk to you to get a better understanding of your symptomps and see how we can help.</string>
+    <string name="health_monitor_contact_form_hint_first_name">First Name</string>
+    <string name="health_monitor_contact_form_hint_last_name">Last Name</string>
+    <string name="health_monitor_contact_form_hint_mobile_phone_number">Mobile phone number</string>
+    <string name="health_monitor_contact_form_hint_email">Email</string>
+    <string name="health_monitor_contact_form_hint_postcode">Postcode</string>
+    <string name="health_monitor_contact_form_button_submit">Submit</string>
+    <string name="health_monitor_contact_form_additional_information">Thanks for sharing your details with us. We\'ll get back to you ASAP.</string>
+    <!-- Health Monitor thanks for sharing -->
+    <string name="health_monitor_thanks_for_sharing_title">Thanks for sharing</string>
+    <string name="health_monitor_thanks_for_sharing_subtitle">We\'ll get in touch with you ASAP. If in the meantime you need medical help, please call your GP.</string>
+    <string name="health_monitor_thanks_for_sharing_button">OK</string>
+    <!-- Health Monitor tips -->
+    <string name="health_monitor_tips_button_ok">OK</string>
+    <string name="health_monitor_tips_question_1">What do I do?</string>
+    <string name="health_monitor_tips_question_1_answer_1">Stay home. Make sure you feel better.</string>
+    <string name="health_monitor_tips_question_1_answer_2">Don\'t go shopping or have visitors</string>
+    <string name="health_monitor_tips_question_1_answer_3">Ask others to go shopping for you or deliver at home. Ask if someone else can walk the dog.</string>
+    <string name="health_monitor_tips_question_2">What do my housemates do?</string>
+    <string name="health_monitor_tips_question_2_answer_1">If you have housemates, they can also not go outside.</string>
+    <string name="health_monitor_tips_question_2_answer_2">If no one had any symptoms for more than 24 hours, you can go back outside.</string>
+    <string name="health_monitor_tips_question_3">When do I call my GP?</string>
+    <string name="health_monitor_tips_question_3_answer_1">There is no need to worry at this point. Keep track of your symptoms daily. You call the doctor if you get sicker or if you need medical help, for example if you get a fever or if you experience unusual shortness of breath.</string>
+    <string name="health_monitor_tips_question_3_answer_2">Please do not visit your GP or local hospital, call your GP first.</string>
+    <!-- Health Monitor tips severity 1 -->
+    <string name="health_monitor_tips_severity_1_title">Advice to keep you safe and sound</string>
+    <string name="health_monitor_tips_severity_1_subtitle">You\'re experiencing potential symptoms of the Virus. Here are some tips:</string>
+    <string name="health_monitor_tips_severity_1_question_2_answer_1">For household members without symptoms the same rules apply for everyone in the Netherlands.</string>
+    <string name="health_monitor_tips_severity_1_question_2_answer_2">If you haven\'t had any symptoms for more than 24 hours, you can go back outside.</string>
+    <!-- Health Monitor tips severity 2 -->
+    <string name="health_monitor_tips_severity_2_title">Advice when you\'re mild experiencing symptoms</string>
+    <string name="health_monitor_tips_severity_2_subtitle">You\'re experiencing symptoms of the Virus. Here are some tips:</string>
 </resources>
